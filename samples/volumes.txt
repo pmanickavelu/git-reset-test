@@ -1,0 +1,513 @@
+*************************************************************************************
+us-east-1
+*************************************************************************************
+{
+  Volumes: [
+    {
+      Attachments: [{
+          AttachTime: 2015-10-16 10:15:09 +0000 UTC,
+          DeleteOnTermination: true,
+          Device: "/dev/sda1",
+          InstanceId: "i-4f3eaaf0",
+          State: "attached",
+          VolumeId: "vol-584ae7b4"
+        }],
+      AvailabilityZone: "us-east-1b",
+      CreateTime: 2015-10-16 10:15:09.423 +0000 UTC,
+      Encrypted: false,
+      Iops: 6000,
+      Size: 300,
+      SnapshotId: "snap-68b462ff",
+      State: "in-use",
+      VolumeId: "vol-584ae7b4",
+      VolumeType: "io1"
+    },
+    {
+      Attachments: [{
+          AttachTime: 2015-10-23 14:04:05 +0000 UTC,
+          DeleteOnTermination: true,
+          Device: "/dev/sda1",
+          InstanceId: "i-df206260",
+          State: "attached",
+          VolumeId: "vol-3d44d0d1"
+        }],
+      AvailabilityZone: "us-east-1b",
+      CreateTime: 2015-10-23 14:04:05.336 +0000 UTC,
+      Encrypted: false,
+      Iops: 6000,
+      Size: 300,
+      SnapshotId: "snap-68b462ff",
+      State: "in-use",
+      VolumeId: "vol-3d44d0d1",
+      VolumeType: "io1"
+    },
+    {
+      Attachments: [{
+          AttachTime: 2015-11-20 14:50:59 +0000 UTC,
+          DeleteOnTermination: true,
+          Device: "/dev/sda1",
+          InstanceId: "i-420299fc",
+          State: "attached",
+          VolumeId: "vol-e4f7050b"
+        }],
+      AvailabilityZone: "us-east-1b",
+      CreateTime: 2015-11-20 14:50:59.572 +0000 UTC,
+      Encrypted: false,
+      Iops: 6000,
+      Size: 300,
+      SnapshotId: "snap-68b462ff",
+      State: "in-use",
+      VolumeId: "vol-e4f7050b",
+      VolumeType: "io1"
+    },
+    {
+      Attachments: [{
+          AttachTime: 2015-11-20 18:22:04 +0000 UTC,
+          DeleteOnTermination: false,
+          Device: "/dev/sda1",
+          InstanceId: "i-54284dea",
+          State: "attached",
+          VolumeId: "vol-08f508e7"
+        }],
+      AvailabilityZone: "us-east-1b",
+      CreateTime: 2015-11-20 18:22:03.836 +0000 UTC,
+      Encrypted: false,
+      Iops: 6000,
+      Size: 200,
+      SnapshotId: "snap-4c6692da",
+      State: "in-use",
+      VolumeId: "vol-08f508e7",
+      VolumeType: "io1"
+    }
+  ]
+}
+*************************************************************************************
+us-west-2
+*************************************************************************************
+{
+
+}
+*************************************************************************************
+us-west-1
+*************************************************************************************
+{
+
+}
+*************************************************************************************
+eu-west-1
+*************************************************************************************
+{
+
+}
+*************************************************************************************
+eu-central-1
+*************************************************************************************
+{
+
+}
+*************************************************************************************
+ap-southeast-1
+*************************************************************************************
+{
+  Volumes: [
+    {
+      Attachments: [{
+          AttachTime: 2015-08-26 08:03:48 +0000 UTC,
+          DeleteOnTermination: true,
+          Device: "/dev/sda1",
+          InstanceId: "i-bf9e7870",
+          State: "attached",
+          VolumeId: "vol-da2749ce"
+        }],
+      AvailabilityZone: "ap-southeast-1b",
+      CreateTime: 2015-08-26 08:03:46.042 +0000 UTC,
+      Encrypted: false,
+      Iops: 600,
+      Size: 200,
+      SnapshotId: "snap-d00ac9e4",
+      State: "in-use",
+      VolumeId: "vol-da2749ce",
+      VolumeType: "gp2"
+    },
+    {
+      Attachments: [{
+          AttachTime: 2015-09-15 11:42:47 +0000 UTC,
+          DeleteOnTermination: false,
+          Device: "/dev/sda1",
+          InstanceId: "i-91b54c5e",
+          State: "attached",
+          VolumeId: "vol-221397e5"
+        }],
+      AvailabilityZone: "ap-southeast-1b",
+      CreateTime: 2015-09-15 11:42:47.786 +0000 UTC,
+      Encrypted: false,
+      Iops: 600,
+      Size: 200,
+      SnapshotId: "snap-d00ac9e4",
+      State: "in-use",
+      VolumeId: "vol-221397e5",
+      VolumeType: "gp2"
+    },
+    {
+      Attachments: [{
+          AttachTime: 2015-09-21 13:19:04 +0000 UTC,
+          DeleteOnTermination: true,
+          Device: "/dev/sda1",
+          InstanceId: "i-b135f37e",
+          State: "attached",
+          VolumeId: "vol-352fa2f2"
+        }],
+      AvailabilityZone: "ap-southeast-1b",
+      CreateTime: 2015-09-21 13:19:04.893 +0000 UTC,
+      Encrypted: false,
+      Iops: 600,
+      Size: 200,
+      SnapshotId: "snap-9ccb44a8",
+      State: "in-use",
+      VolumeId: "vol-352fa2f2",
+      VolumeType: "gp2"
+    },
+    {
+      Attachments: [{
+          AttachTime: 2015-09-29 05:05:59 +0000 UTC,
+          DeleteOnTermination: true,
+          Device: "/dev/sda1",
+          InstanceId: "i-ebae6624",
+          State: "attached",
+          VolumeId: "vol-ee41d529"
+        }],
+      AvailabilityZone: "ap-southeast-1b",
+      CreateTime: 2015-09-29 05:05:59.102 +0000 UTC,
+      Encrypted: false,
+      Iops: 600,
+      Size: 200,
+      SnapshotId: "snap-753d5d40",
+      State: "in-use",
+      VolumeId: "vol-ee41d529",
+      VolumeType: "gp2"
+    },
+    {
+      Attachments: [{
+          AttachTime: 2015-10-06 09:50:39 +0000 UTC,
+          DeleteOnTermination: true,
+          Device: "/dev/sda1",
+          InstanceId: "i-c54b9b0a",
+          State: "attached",
+          VolumeId: "vol-60138fa7"
+        }],
+      AvailabilityZone: "ap-southeast-1b",
+      CreateTime: 2015-10-06 09:50:39.494 +0000 UTC,
+      Encrypted: false,
+      Iops: 600,
+      Size: 200,
+      SnapshotId: "snap-753d5d40",
+      State: "in-use",
+      VolumeId: "vol-60138fa7",
+      VolumeType: "gp2"
+    },
+    {
+      Attachments: [{
+          AttachTime: 2015-10-09 08:43:36 +0000 UTC,
+          DeleteOnTermination: true,
+          Device: "/dev/sda1",
+          InstanceId: "i-07e539c8",
+          State: "attached",
+          VolumeId: "vol-219c04e6"
+        }],
+      AvailabilityZone: "ap-southeast-1b",
+      CreateTime: 2015-10-09 08:43:36.388 +0000 UTC,
+      Encrypted: false,
+      Iops: 24,
+      Size: 8,
+      SnapshotId: "snap-3eb0e00a",
+      State: "in-use",
+      VolumeId: "vol-219c04e6",
+      VolumeType: "gp2"
+    },
+    {
+      Attachments: [{
+          AttachTime: 2015-11-12 12:13:28 +0000 UTC,
+          DeleteOnTermination: true,
+          Device: "/dev/sda1",
+          InstanceId: "i-93c3431d",
+          State: "attached",
+          VolumeId: "vol-613770a6"
+        }],
+      AvailabilityZone: "ap-southeast-1b",
+      CreateTime: 2015-11-12 12:13:28.645 +0000 UTC,
+      Encrypted: false,
+      Iops: 300,
+      Size: 100,
+      SnapshotId: "snap-3eb0e00a",
+      State: "in-use",
+      VolumeId: "vol-613770a6",
+      VolumeType: "gp2"
+    },
+    {
+      Attachments: [{
+          AttachTime: 2015-11-26 09:09:23 +0000 UTC,
+          DeleteOnTermination: true,
+          Device: "/dev/sda",
+          InstanceId: "i-366de7b8",
+          State: "attached",
+          VolumeId: "vol-40237687"
+        }],
+      AvailabilityZone: "ap-southeast-1b",
+      CreateTime: 2015-11-26 09:09:23.19 +0000 UTC,
+      Encrypted: false,
+      Iops: 24,
+      Size: 8,
+      SnapshotId: "snap-882ce166",
+      State: "in-use",
+      VolumeId: "vol-40237687",
+      VolumeType: "gp2"
+    },
+    {
+      Attachments: [{
+          AttachTime: 2015-11-26 09:09:23 +0000 UTC,
+          DeleteOnTermination: false,
+          Device: "/dev/sdb",
+          InstanceId: "i-366de7b8",
+          State: "attached",
+          VolumeId: "vol-4f237688"
+        }],
+      AvailabilityZone: "ap-southeast-1b",
+      CreateTime: 2015-11-26 09:09:23.284 +0000 UTC,
+      Encrypted: false,
+      Iops: 300,
+      Size: 100,
+      SnapshotId: "",
+      State: "in-use",
+      Tags: [{
+          Key: "Name",
+          Value: "Debian Helpdesk LIVE"
+        }],
+      VolumeId: "vol-4f237688",
+      VolumeType: "gp2"
+    },
+    {
+      AvailabilityZone: "ap-southeast-1b",
+      CreateTime: 2015-11-26 17:13:46.352 +0000 UTC,
+      Encrypted: false,
+      Iops: 300,
+      Size: 100,
+      SnapshotId: "snap-1e37012c",
+      State: "available",
+      VolumeId: "vol-b898cd7f",
+      VolumeType: "gp2"
+    },
+    {
+      AvailabilityZone: "ap-southeast-1b",
+      CreateTime: 2015-11-26 17:15:42.431 +0000 UTC,
+      Encrypted: false,
+      Iops: 300,
+      Size: 100,
+      SnapshotId: "snap-1e37012c",
+      State: "available",
+      Tags: [{
+          Key: "Name",
+          Value: "debian testing sdb"
+        }],
+      VolumeId: "vol-fd9bce3a",
+      VolumeType: "gp2"
+    },
+    {
+      Attachments: [{
+          AttachTime: 2015-12-08 20:15:21 +0000 UTC,
+          DeleteOnTermination: true,
+          Device: "/dev/sda",
+          InstanceId: "i-97f76a19",
+          State: "attached",
+          VolumeId: "vol-f8d38a3f"
+        }],
+      AvailabilityZone: "ap-southeast-1b",
+      CreateTime: 2015-12-08 20:15:21.078 +0000 UTC,
+      Encrypted: false,
+      Iops: 24,
+      Size: 8,
+      SnapshotId: "snap-ab25499f",
+      State: "in-use",
+      VolumeId: "vol-f8d38a3f",
+      VolumeType: "gp2"
+    },
+    {
+      Attachments: [{
+          AttachTime: 2015-12-08 20:32:57 +0000 UTC,
+          DeleteOnTermination: false,
+          Device: "/dev/sdf",
+          InstanceId: "i-97f76a19",
+          State: "attached",
+          VolumeId: "vol-edd48d2a"
+        }],
+      AvailabilityZone: "ap-southeast-1b",
+      CreateTime: 2015-12-08 20:32:11.879 +0000 UTC,
+      Encrypted: false,
+      Iops: 3000,
+      Size: 300,
+      SnapshotId: "snap-782b8e4c",
+      State: "in-use",
+      Tags: [{
+          Key: "Name",
+          Value: "Debian Helpdesk Staging"
+        }],
+      VolumeId: "vol-edd48d2a",
+      VolumeType: "io1"
+    },
+    {
+      AvailabilityZone: "ap-southeast-1b",
+      CreateTime: 2015-12-09 14:47:08.959 +0000 UTC,
+      Encrypted: false,
+      Iops: 3000,
+      Size: 300,
+      SnapshotId: "snap-35c1ee01",
+      State: "available",
+      VolumeId: "vol-fc82da3b",
+      VolumeType: "io1"
+    },
+    {
+      Attachments: [{
+          AttachTime: 2015-12-09 15:10:07 +0000 UTC,
+          DeleteOnTermination: true,
+          Device: "/dev/sda",
+          InstanceId: "i-446ef3ca",
+          State: "attached",
+          VolumeId: "vol-8885dd4f"
+        }],
+      AvailabilityZone: "ap-southeast-1b",
+      CreateTime: 2015-12-09 15:10:07.311 +0000 UTC,
+      Encrypted: false,
+      Iops: 24,
+      Size: 8,
+      SnapshotId: "snap-582ee66f",
+      State: "in-use",
+      VolumeId: "vol-8885dd4f",
+      VolumeType: "gp2"
+    },
+    {
+      Attachments: [{
+          AttachTime: 2015-12-09 15:10:07 +0000 UTC,
+          DeleteOnTermination: false,
+          Device: "/dev/sdf",
+          InstanceId: "i-446ef3ca",
+          State: "attached",
+          VolumeId: "vol-6985ddae"
+        }],
+      AvailabilityZone: "ap-southeast-1b",
+      CreateTime: 2015-12-09 15:10:07.23 +0000 UTC,
+      Encrypted: false,
+      Iops: 3000,
+      Size: 300,
+      SnapshotId: "snap-35c1ee01",
+      State: "in-use",
+      VolumeId: "vol-6985ddae",
+      VolumeType: "io1"
+    },
+    {
+      AvailabilityZone: "ap-southeast-1a",
+      CreateTime: 2015-09-15 14:49:59.078 +0000 UTC,
+      Encrypted: false,
+      Iops: 15000,
+      Size: 500,
+      SnapshotId: "snap-a64c464a",
+      State: "available",
+      VolumeId: "vol-927ce77a",
+      VolumeType: "io1"
+    },
+    {
+      Attachments: [{
+          AttachTime: 2015-09-17 14:58:49 +0000 UTC,
+          DeleteOnTermination: true,
+          Device: "/dev/sda1",
+          InstanceId: "i-a6d07702",
+          State: "attached",
+          VolumeId: "vol-ed284c05"
+        }],
+      AvailabilityZone: "ap-southeast-1a",
+      CreateTime: 2015-09-17 14:58:49.609 +0000 UTC,
+      Encrypted: false,
+      Iops: 6000,
+      Size: 300,
+      SnapshotId: "snap-9ccb44a8",
+      State: "in-use",
+      Tags: [{
+          Key: "Name",
+          Value: "LIVE server"
+        }],
+      VolumeId: "vol-ed284c05",
+      VolumeType: "io1"
+    },
+    {
+      Attachments: [{
+          AttachTime: 2015-09-23 15:49:47 +0000 UTC,
+          DeleteOnTermination: false,
+          Device: "/dev/sda1",
+          InstanceId: "i-f5379b51",
+          State: "attached",
+          VolumeId: "vol-46d2b0ae"
+        }],
+      AvailabilityZone: "ap-southeast-1a",
+      CreateTime: 2015-09-23 15:49:47.437 +0000 UTC,
+      Encrypted: false,
+      Iops: 6000,
+      Size: 200,
+      SnapshotId: "snap-753d5d40",
+      State: "in-use",
+      VolumeId: "vol-46d2b0ae",
+      VolumeType: "io1"
+    }
+  ]
+}
+*************************************************************************************
+ap-northeast-1
+*************************************************************************************
+{
+
+}
+*************************************************************************************
+ap-southeast-2
+*************************************************************************************
+{
+  Volumes: [{
+      Attachments: [{
+          AttachTime: 2015-10-14 06:27:26 +0000 UTC,
+          DeleteOnTermination: true,
+          Device: "/dev/sda1",
+          InstanceId: "i-5aae1e85",
+          State: "attached",
+          VolumeId: "vol-2fa656e5"
+        }],
+      AvailabilityZone: "ap-southeast-2a",
+      CreateTime: 2015-10-14 06:27:26.17 +0000 UTC,
+      Encrypted: false,
+      Iops: 300,
+      Size: 100,
+      SnapshotId: "snap-6696df8e",
+      State: "in-use",
+      VolumeId: "vol-2fa656e5",
+      VolumeType: "gp2"
+    },{
+      Attachments: [{
+          AttachTime: 2015-10-14 06:35:43 +0000 UTC,
+          DeleteOnTermination: true,
+          Device: "/dev/sda1",
+          InstanceId: "i-b6922269",
+          State: "attached",
+          VolumeId: "vol-e9a95923"
+        }],
+      AvailabilityZone: "ap-southeast-2a",
+      CreateTime: 2015-10-14 06:35:43.247 +0000 UTC,
+      Encrypted: false,
+      Iops: 300,
+      Size: 100,
+      SnapshotId: "snap-6696df8e",
+      State: "in-use",
+      VolumeId: "vol-e9a95923",
+      VolumeType: "gp2"
+    }]
+}
+*************************************************************************************
+sa-east-1
+*************************************************************************************
+{
+
+}

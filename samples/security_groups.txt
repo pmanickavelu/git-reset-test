@@ -1,0 +1,780 @@
+*************************************************************************************
+us-east-1
+*************************************************************************************
+{
+  SecurityGroups: [
+    {
+      Description: "default group",
+      GroupId: "sg-e19ac388",
+      GroupName: "default",
+      IpPermissions: [
+        {
+          FromPort: 22,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 22
+        },
+        {
+          FromPort: 80,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 80
+        },
+        {
+          FromPort: 443,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 443
+        },
+        {
+          FromPort: 5432,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 5432
+        },
+        {
+          FromPort: 8080,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 8080
+        }
+      ],
+      OwnerId: "585407464355",
+      Tags: [{
+          Key: "Server",
+          Value: "Helpdesk LIVE"
+        }]
+    },
+    {
+      Description: "Helpdesk",
+      GroupId: "sg-c793a7ad",
+      GroupName: "Helpdesk",
+      IpPermissions: [
+        {
+          FromPort: 22,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 22
+        },
+        {
+          FromPort: 80,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 80
+        },
+        {
+          FromPort: 443,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 443
+        },
+        {
+          FromPort: 995,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 995
+        },
+        {
+          FromPort: 5432,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 5432
+        }
+      ],
+      OwnerId: "585407464355"
+    },
+    {
+      Description: "launch-wizard-1 created 2015-11-20T11:39:57.551+05:30",
+      GroupId: "sg-05b88c6f",
+      GroupName: "launch-wizard-1",
+      IpPermissions: [{
+          FromPort: 22,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 22
+        },{
+          FromPort: 80,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 80
+        }],
+      OwnerId: "585407464355"
+    },
+    {
+      Description: "default VPC security group",
+      GroupId: "sg-62767b05",
+      GroupName: "default",
+      IpPermissions: [{
+          IpProtocol: "-1",
+          UserIdGroupPairs: [{
+              GroupId: "sg-62767b05",
+              UserId: "585407464355"
+            }]
+        }],
+      IpPermissionsEgress: [{
+          IpProtocol: "-1",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }]
+        }],
+      OwnerId: "585407464355",
+      VpcId: "vpc-81f13ce5"
+    }
+  ]
+}
+*************************************************************************************
+us-west-2
+*************************************************************************************
+{
+  SecurityGroups: [{
+      Description: "default VPC security group",
+      GroupId: "sg-5213f33d",
+      GroupName: "default",
+      IpPermissions: [{
+          IpProtocol: "-1",
+          UserIdGroupPairs: [{
+              GroupId: "sg-5213f33d",
+              UserId: "585407464355"
+            }]
+        }],
+      IpPermissionsEgress: [{
+          IpProtocol: "-1",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }]
+        }],
+      OwnerId: "585407464355",
+      VpcId: "vpc-381b5a50"
+    }]
+}
+*************************************************************************************
+us-west-1
+*************************************************************************************
+{
+  SecurityGroups: [{
+      Description: "default VPC security group",
+      GroupId: "sg-b5aa4eda",
+      GroupName: "default",
+      IpPermissions: [{
+          IpProtocol: "-1",
+          UserIdGroupPairs: [{
+              GroupId: "sg-b5aa4eda",
+              UserId: "585407464355"
+            }]
+        }],
+      IpPermissionsEgress: [{
+          IpProtocol: "-1",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }]
+        }],
+      OwnerId: "585407464355",
+      VpcId: "vpc-a5a614cd"
+    }]
+}
+*************************************************************************************
+eu-west-1
+*************************************************************************************
+{
+  SecurityGroups: [{
+      Description: "default VPC security group",
+      GroupId: "sg-947a98fb",
+      GroupName: "default",
+      IpPermissions: [{
+          IpProtocol: "-1",
+          UserIdGroupPairs: [{
+              GroupId: "sg-947a98fb",
+              UserId: "585407464355"
+            }]
+        }],
+      IpPermissionsEgress: [{
+          IpProtocol: "-1",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }]
+        }],
+      OwnerId: "585407464355",
+      VpcId: "vpc-538d5f38"
+    }]
+}
+*************************************************************************************
+eu-central-1
+*************************************************************************************
+{
+  SecurityGroups: [{
+      Description: "default VPC security group",
+      GroupId: "sg-73e4051a",
+      GroupName: "default",
+      IpPermissions: [{
+          IpProtocol: "-1",
+          UserIdGroupPairs: [{
+              GroupId: "sg-73e4051a",
+              UserId: "585407464355"
+            }]
+        }],
+      IpPermissionsEgress: [{
+          IpProtocol: "-1",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }]
+        }],
+      OwnerId: "585407464355",
+      VpcId: "vpc-b76385de"
+    }]
+}
+*************************************************************************************
+ap-southeast-1
+*************************************************************************************
+{
+  SecurityGroups: [
+    {
+      Description: "launch-wizard-1 created 2015-09-15T17:11:34.491+05:30",
+      GroupId: "sg-cb85aa9e",
+      GroupName: "Bigdata",
+      IpPermissions: [
+        {
+          FromPort: 0,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 65535
+        },
+        {
+          FromPort: 22,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 22
+        },
+        {
+          FromPort: 80,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 80
+        },
+        {
+          FromPort: 3000,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 3000
+        },
+        {
+          FromPort: 5432,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 5432
+        },
+        {
+          FromPort: 0,
+          IpProtocol: "udp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 65535
+        }
+      ],
+      OwnerId: "585407464355"
+    },
+    {
+      Description: "BigData Crawler",
+      GroupId: "sg-9d8ea6c8",
+      GroupName: "BigData Crawler",
+      IpPermissions: [{
+          FromPort: 22,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 22
+        }],
+      OwnerId: "585407464355"
+    },
+    {
+      Description: "launch-wizard-1 created 2015-09-21T15:52:14.855+05:30",
+      GroupId: "sg-0bfdd35e",
+      GroupName: "Bigdata-L",
+      IpPermissions: [{
+          FromPort: 22,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 22
+        }],
+      OwnerId: "585407464355"
+    },
+    {
+      Description: "default group",
+      GroupId: "sg-ae134cfc",
+      GroupName: "default",
+      IpPermissions: [
+        {
+          FromPort: 0,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 65535
+        },
+        {
+          FromPort: 22,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 22
+        },
+        {
+          FromPort: 25,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 25
+        },
+        {
+          FromPort: 80,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 80
+        },
+        {
+          FromPort: 443,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 443
+        },
+        {
+          FromPort: 1222,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 1222
+        },
+        {
+          FromPort: 3306,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 3306
+        },
+        {
+          FromPort: 0,
+          IpProtocol: "udp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 65535
+        },
+        {
+          FromPort: -1,
+          IpProtocol: "icmp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: -1
+        }
+      ],
+      OwnerId: "585407464355"
+    },
+    {
+      Description: "Master group for Elastic MapReduce created on 2015-09-29T13:17:53.851Z",
+      GroupId: "sg-a1123bf4",
+      GroupName: "ElasticMapReduce-master",
+      IpPermissions: [
+        {
+          FromPort: 0,
+          IpProtocol: "tcp",
+          ToPort: 65535,
+          UserIdGroupPairs: [{
+              GroupId: "sg-a1123bf4",
+              GroupName: "ElasticMapReduce-master",
+              UserId: "585407464355"
+            },{
+              GroupId: "sg-a3123bf6",
+              GroupName: "ElasticMapReduce-slave",
+              UserId: "585407464355"
+            }]
+        },
+        {
+          FromPort: 0,
+          IpProtocol: "udp",
+          ToPort: 65535,
+          UserIdGroupPairs: [{
+              GroupId: "sg-a1123bf4",
+              GroupName: "ElasticMapReduce-master",
+              UserId: "585407464355"
+            },{
+              GroupId: "sg-a3123bf6",
+              GroupName: "ElasticMapReduce-slave",
+              UserId: "585407464355"
+            }]
+        },
+        {
+          FromPort: -1,
+          IpProtocol: "icmp",
+          ToPort: -1,
+          UserIdGroupPairs: [{
+              GroupId: "sg-a1123bf4",
+              GroupName: "ElasticMapReduce-master",
+              UserId: "585407464355"
+            },{
+              GroupId: "sg-a3123bf6",
+              GroupName: "ElasticMapReduce-slave",
+              UserId: "585407464355"
+            }]
+        },
+        {
+          FromPort: 22,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 22
+        },
+        {
+          FromPort: 8443,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "203.83.220.152/29"
+            },{
+              CidrIp: "203.83.220.24/29"
+            },{
+              CidrIp: "54.240.199.0/24"
+            }],
+          ToPort: 8443
+        }
+      ],
+      OwnerId: "585407464355"
+    },
+    {
+      Description: "Slave group for Elastic MapReduce created on 2015-09-29T13:17:54.118Z",
+      GroupId: "sg-a3123bf6",
+      GroupName: "ElasticMapReduce-slave",
+      IpPermissions: [{
+          FromPort: 0,
+          IpProtocol: "tcp",
+          ToPort: 65535,
+          UserIdGroupPairs: [{
+              GroupId: "sg-a1123bf4",
+              GroupName: "ElasticMapReduce-master",
+              UserId: "585407464355"
+            },{
+              GroupId: "sg-a3123bf6",
+              GroupName: "ElasticMapReduce-slave",
+              UserId: "585407464355"
+            }]
+        },{
+          FromPort: 0,
+          IpProtocol: "udp",
+          ToPort: 65535,
+          UserIdGroupPairs: [{
+              GroupId: "sg-a1123bf4",
+              GroupName: "ElasticMapReduce-master",
+              UserId: "585407464355"
+            },{
+              GroupId: "sg-a3123bf6",
+              GroupName: "ElasticMapReduce-slave",
+              UserId: "585407464355"
+            }]
+        },{
+          FromPort: -1,
+          IpProtocol: "icmp",
+          ToPort: -1,
+          UserIdGroupPairs: [{
+              GroupId: "sg-a1123bf4",
+              GroupName: "ElasticMapReduce-master",
+              UserId: "585407464355"
+            },{
+              GroupId: "sg-a3123bf6",
+              GroupName: "ElasticMapReduce-slave",
+              UserId: "585407464355"
+            }]
+        }],
+      OwnerId: "585407464355"
+    },
+    {
+      Description: "Restricted port access for helpdesk",
+      GroupId: "sg-3321ad66",
+      GroupName: "Helpdesk",
+      IpPermissions: [
+        {
+          FromPort: 22,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 22
+        },
+        {
+          FromPort: 80,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 80
+        },
+        {
+          FromPort: 443,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 443
+        },
+        {
+          FromPort: 8080,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 8080
+        },
+        {
+          FromPort: 10000,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 10000
+        }
+      ],
+      OwnerId: "585407464355"
+    },
+    {
+      Description: "launch-wizard-2 created 2015-11-26T14:37:13.116+05:30",
+      GroupId: "sg-c5880790",
+      GroupName: "helpdesk-ap",
+      IpPermissions: [
+        {
+          FromPort: 22,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 22
+        },
+        {
+          FromPort: 80,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 80
+        },
+        {
+          FromPort: 443,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 443
+        },
+        {
+          FromPort: 995,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 995
+        },
+        {
+          FromPort: 5432,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 5432
+        },
+        {
+          FromPort: 10000,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 10000
+        }
+      ],
+      OwnerId: "585407464355",
+      Tags: [{
+          Key: "Name",
+          Value: "debian helpdesk security group"
+        }]
+    },
+    {
+      Description: "launch-wizard-1 created 2015-10-09T14:13:05.797+05:30",
+      GroupId: "sg-01f9d154",
+      GroupName: "launch-wizard-1",
+      IpPermissions: [{
+          FromPort: 22,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 22
+        },{
+          FromPort: 80,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 80
+        }],
+      OwnerId: "585407464355"
+    },
+    {
+      Description: "launch-wizard-1 created 2015-08-26T13:32:49.675+05:30",
+      GroupId: "sg-b7cfe2e2",
+      GroupName: "vakilsearch ec2 classic",
+      IpPermissions: [
+        {
+          FromPort: 0,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 65535
+        },
+        {
+          FromPort: 22,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 22
+        },
+        {
+          FromPort: 5432,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 5432
+        },
+        {
+          FromPort: 0,
+          IpProtocol: "udp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 65535
+        }
+      ],
+      OwnerId: "585407464355"
+    }
+  ]
+}
+*************************************************************************************
+ap-northeast-1
+*************************************************************************************
+{
+
+}
+*************************************************************************************
+ap-southeast-2
+*************************************************************************************
+{
+  SecurityGroups: [{
+      Description: "default VPC security group",
+      GroupId: "sg-33041f5f",
+      GroupName: "default",
+      IpPermissions: [{
+          IpProtocol: "-1",
+          UserIdGroupPairs: [{
+              GroupId: "sg-33041f5f",
+              UserId: "585407464355"
+            }]
+        }],
+      IpPermissionsEgress: [{
+          IpProtocol: "-1",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }]
+        }],
+      OwnerId: "585407464355",
+      VpcId: "vpc-42f0a52b"
+    },{
+      Description: "BigData Crawler",
+      GroupId: "sg-7c663319",
+      GroupName: "BigData Crawler",
+      IpPermissions: [{
+          FromPort: 22,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 22
+        }],
+      IpPermissionsEgress: [{
+          IpProtocol: "-1",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }]
+        }],
+      OwnerId: "585407464355",
+      VpcId: "vpc-42f0a52b"
+    }]
+}
+*************************************************************************************
+sa-east-1
+*************************************************************************************
+{
+  SecurityGroups: [{
+      Description: "default VPC security group",
+      GroupId: "sg-8a312ae6",
+      GroupName: "default",
+      IpPermissions: [{
+          IpProtocol: "-1",
+          UserIdGroupPairs: [{
+              GroupId: "sg-8a312ae6",
+              UserId: "585407464355"
+            }]
+        }],
+      IpPermissionsEgress: [{
+          IpProtocol: "-1",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }]
+        }],
+      OwnerId: "585407464355",
+      VpcId: "vpc-44c2ce2d"
+    }]
+}

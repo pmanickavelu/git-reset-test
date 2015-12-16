@@ -1,0 +1,404 @@
+*************************************************************************************
+us-east-1
+*************************************************************************************
+{
+  VolumeStatuses: [
+    {
+      AvailabilityZone: "us-east-1b",
+      VolumeId: "vol-584ae7b4",
+      VolumeStatus: {
+        Details: [{
+            Name: "io-enabled",
+            Status: "passed"
+          },{
+            Name: "io-performance",
+            Status: "normal"
+          }],
+        Status: "ok"
+      }
+    },
+    {
+      AvailabilityZone: "us-east-1b",
+      VolumeId: "vol-3d44d0d1",
+      VolumeStatus: {
+        Details: [{
+            Name: "io-enabled",
+            Status: "passed"
+          },{
+            Name: "io-performance",
+            Status: "normal"
+          }],
+        Status: "ok"
+      }
+    },
+    {
+      AvailabilityZone: "us-east-1b",
+      VolumeId: "vol-e4f7050b",
+      VolumeStatus: {
+        Details: [{
+            Name: "io-enabled",
+            Status: "passed"
+          },{
+            Name: "io-performance",
+            Status: "not-applicable"
+          }],
+        Status: "ok"
+      }
+    },
+    {
+      AvailabilityZone: "us-east-1b",
+      VolumeId: "vol-08f508e7",
+      VolumeStatus: {
+        Details: [{
+            Name: "io-enabled",
+            Status: "passed"
+          },{
+            Name: "io-performance",
+            Status: "normal"
+          }],
+        Status: "ok"
+      }
+    }
+  ]
+}
+*************************************************************************************
+us-west-2
+*************************************************************************************
+{
+
+}
+*************************************************************************************
+us-west-1
+*************************************************************************************
+{
+
+}
+*************************************************************************************
+eu-west-1
+*************************************************************************************
+{
+
+}
+*************************************************************************************
+eu-central-1
+*************************************************************************************
+{
+
+}
+*************************************************************************************
+ap-southeast-1
+*************************************************************************************
+{
+  VolumeStatuses: [
+    {
+      AvailabilityZone: "ap-southeast-1b",
+      VolumeId: "vol-da2749ce",
+      VolumeStatus: {
+        Details: [{
+            Name: "io-enabled",
+            Status: "passed"
+          },{
+            Name: "io-performance",
+            Status: "not-applicable"
+          }],
+        Status: "ok"
+      }
+    },
+    {
+      AvailabilityZone: "ap-southeast-1b",
+      VolumeId: "vol-221397e5",
+      VolumeStatus: {
+        Details: [{
+            Name: "io-enabled",
+            Status: "passed"
+          },{
+            Name: "io-performance",
+            Status: "not-applicable"
+          }],
+        Status: "ok"
+      }
+    },
+    {
+      AvailabilityZone: "ap-southeast-1b",
+      VolumeId: "vol-352fa2f2",
+      VolumeStatus: {
+        Details: [{
+            Name: "io-enabled",
+            Status: "passed"
+          },{
+            Name: "io-performance",
+            Status: "not-applicable"
+          }],
+        Status: "ok"
+      }
+    },
+    {
+      AvailabilityZone: "ap-southeast-1b",
+      VolumeId: "vol-ee41d529",
+      VolumeStatus: {
+        Details: [{
+            Name: "io-enabled",
+            Status: "passed"
+          },{
+            Name: "io-performance",
+            Status: "not-applicable"
+          }],
+        Status: "ok"
+      }
+    },
+    {
+      AvailabilityZone: "ap-southeast-1b",
+      VolumeId: "vol-60138fa7",
+      VolumeStatus: {
+        Details: [{
+            Name: "io-enabled",
+            Status: "passed"
+          },{
+            Name: "io-performance",
+            Status: "not-applicable"
+          }],
+        Status: "ok"
+      }
+    },
+    {
+      AvailabilityZone: "ap-southeast-1b",
+      VolumeId: "vol-219c04e6",
+      VolumeStatus: {
+        Details: [{
+            Name: "io-enabled",
+            Status: "passed"
+          },{
+            Name: "io-performance",
+            Status: "not-applicable"
+          }],
+        Status: "ok"
+      }
+    },
+    {
+      AvailabilityZone: "ap-southeast-1b",
+      VolumeId: "vol-613770a6",
+      VolumeStatus: {
+        Details: [{
+            Name: "io-enabled",
+            Status: "passed"
+          },{
+            Name: "io-performance",
+            Status: "not-applicable"
+          }],
+        Status: "ok"
+      }
+    },
+    {
+      AvailabilityZone: "ap-southeast-1b",
+      VolumeId: "vol-40237687",
+      VolumeStatus: {
+        Details: [{
+            Name: "io-enabled",
+            Status: "passed"
+          },{
+            Name: "io-performance",
+            Status: "not-applicable"
+          }],
+        Status: "ok"
+      }
+    },
+    {
+      AvailabilityZone: "ap-southeast-1b",
+      VolumeId: "vol-4f237688",
+      VolumeStatus: {
+        Details: [{
+            Name: "io-enabled",
+            Status: "passed"
+          },{
+            Name: "io-performance",
+            Status: "not-applicable"
+          }],
+        Status: "ok"
+      }
+    },
+    {
+      AvailabilityZone: "ap-southeast-1b",
+      VolumeId: "vol-b898cd7f",
+      VolumeStatus: {
+        Details: [{
+            Name: "io-enabled",
+            Status: "passed"
+          },{
+            Name: "io-performance",
+            Status: "not-applicable"
+          }],
+        Status: "ok"
+      }
+    },
+    {
+      AvailabilityZone: "ap-southeast-1b",
+      VolumeId: "vol-fd9bce3a",
+      VolumeStatus: {
+        Details: [{
+            Name: "io-enabled",
+            Status: "passed"
+          },{
+            Name: "io-performance",
+            Status: "not-applicable"
+          }],
+        Status: "ok"
+      }
+    },
+    {
+      AvailabilityZone: "ap-southeast-1b",
+      VolumeId: "vol-f8d38a3f",
+      VolumeStatus: {
+        Details: [{
+            Name: "io-enabled",
+            Status: "passed"
+          },{
+            Name: "io-performance",
+            Status: "not-applicable"
+          }],
+        Status: "ok"
+      }
+    },
+    {
+      AvailabilityZone: "ap-southeast-1b",
+      VolumeId: "vol-edd48d2a",
+      VolumeStatus: {
+        Details: [{
+            Name: "io-enabled",
+            Status: "passed"
+          },{
+            Name: "io-performance",
+            Status: "normal"
+          }],
+        Status: "ok"
+      }
+    },
+    {
+      AvailabilityZone: "ap-southeast-1b",
+      VolumeId: "vol-fc82da3b",
+      VolumeStatus: {
+        Details: [{
+            Name: "io-enabled",
+            Status: "passed"
+          },{
+            Name: "io-performance",
+            Status: "not-applicable"
+          }],
+        Status: "ok"
+      }
+    },
+    {
+      AvailabilityZone: "ap-southeast-1b",
+      VolumeId: "vol-8885dd4f",
+      VolumeStatus: {
+        Details: [{
+            Name: "io-enabled",
+            Status: "passed"
+          },{
+            Name: "io-performance",
+            Status: "not-applicable"
+          }],
+        Status: "ok"
+      }
+    },
+    {
+      AvailabilityZone: "ap-southeast-1b",
+      VolumeId: "vol-6985ddae",
+      VolumeStatus: {
+        Details: [{
+            Name: "io-enabled",
+            Status: "passed"
+          },{
+            Name: "io-performance",
+            Status: "normal"
+          }],
+        Status: "ok"
+      }
+    },
+    {
+      AvailabilityZone: "ap-southeast-1a",
+      VolumeId: "vol-927ce77a",
+      VolumeStatus: {
+        Details: [{
+            Name: "io-enabled",
+            Status: "passed"
+          },{
+            Name: "io-performance",
+            Status: "not-applicable"
+          }],
+        Status: "ok"
+      }
+    },
+    {
+      AvailabilityZone: "ap-southeast-1a",
+      VolumeId: "vol-ed284c05",
+      VolumeStatus: {
+        Details: [{
+            Name: "io-enabled",
+            Status: "passed"
+          },{
+            Name: "io-performance",
+            Status: "not-applicable"
+          }],
+        Status: "ok"
+      }
+    },
+    {
+      AvailabilityZone: "ap-southeast-1a",
+      VolumeId: "vol-46d2b0ae",
+      VolumeStatus: {
+        Details: [{
+            Name: "io-enabled",
+            Status: "passed"
+          },{
+            Name: "io-performance",
+            Status: "normal"
+          }],
+        Status: "ok"
+      }
+    }
+  ]
+}
+*************************************************************************************
+ap-northeast-1
+*************************************************************************************
+{
+
+}
+*************************************************************************************
+ap-southeast-2
+*************************************************************************************
+{
+  VolumeStatuses: [{
+      AvailabilityZone: "ap-southeast-2a",
+      VolumeId: "vol-2fa656e5",
+      VolumeStatus: {
+        Details: [{
+            Name: "io-enabled",
+            Status: "passed"
+          },{
+            Name: "io-performance",
+            Status: "not-applicable"
+          }],
+        Status: "ok"
+      }
+    },{
+      AvailabilityZone: "ap-southeast-2a",
+      VolumeId: "vol-e9a95923",
+      VolumeStatus: {
+        Details: [{
+            Name: "io-enabled",
+            Status: "passed"
+          },{
+            Name: "io-performance",
+            Status: "not-applicable"
+          }],
+        Status: "ok"
+      }
+    }]
+}
+*************************************************************************************
+sa-east-1
+*************************************************************************************
+{
+
+}

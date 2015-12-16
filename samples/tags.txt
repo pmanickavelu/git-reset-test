@@ -1,0 +1,222 @@
+*************************************************************************************
+us-east-1
+*************************************************************************************
+{
+  Tags: [
+    {
+      Key: "Name",
+      ResourceId: "i-420299fc",
+      ResourceType: "instance",
+      Value: "HelpDesk LIVE"
+    },
+    {
+      Key: "Name",
+      ResourceId: "i-4f3eaaf0",
+      ResourceType: "instance",
+      Value: "vakilsearch Lisings"
+    },
+    {
+      Key: "Name",
+      ResourceId: "i-54284dea",
+      ResourceType: "instance",
+      Value: "Marketplace Reserve"
+    },
+    {
+      Key: "Name",
+      ResourceId: "i-df206260",
+      ResourceType: "instance",
+      Value: "Inkorporate LIVE"
+    },
+    {
+      Key: "Server",
+      ResourceId: "sg-e19ac388",
+      ResourceType: "security-group",
+      Value: "Helpdesk LIVE"
+    }
+  ]
+}
+*************************************************************************************
+us-west-2
+*************************************************************************************
+{
+
+}
+*************************************************************************************
+us-west-1
+*************************************************************************************
+{
+
+}
+*************************************************************************************
+eu-west-1
+*************************************************************************************
+{
+
+}
+*************************************************************************************
+eu-central-1
+*************************************************************************************
+{
+
+}
+*************************************************************************************
+ap-southeast-1
+*************************************************************************************
+{
+  Tags: [
+    {
+      Key: "Name",
+      ResourceId: "vol-4f237688",
+      ResourceType: "volume",
+      Value: "Debian Helpdesk LIVE"
+    },
+    {
+      Key: "Name",
+      ResourceId: "vol-ed284c05",
+      ResourceType: "volume",
+      Value: "LIVE server"
+    },
+    {
+      Key: "Name",
+      ResourceId: "vol-edd48d2a",
+      ResourceType: "volume",
+      Value: "Debian Helpdesk Staging"
+    },
+    {
+      Key: "Name",
+      ResourceId: "vol-fd9bce3a",
+      ResourceType: "volume",
+      Value: "debian testing sdb"
+    },
+    {
+      Key: "Name",
+      ResourceId: "sg-c5880790",
+      ResourceType: "security-group",
+      Value: "debian helpdesk security group"
+    },
+    {
+      Key: "Name",
+      ResourceId: "ami-442b3a16",
+      ResourceType: "image",
+      Value: "09 Oct 2015"
+    },
+    {
+      Key: "Name",
+      ResourceId: "ami-7064a513",
+      ResourceType: "image",
+      Value: "Debian-New-Nov26"
+    },
+    {
+      Key: "Name",
+      ResourceId: "ami-f05c78a2",
+      ResourceType: "image",
+      Value: "15 Sep 2014"
+    },
+    {
+      Key: "Name",
+      ResourceId: "i-07e539c8",
+      ResourceType: "instance",
+      Value: "BigData PHPMyAdmin"
+    },
+    {
+      Key: "Name",
+      ResourceId: "i-366de7b8",
+      ResourceType: "instance",
+      Value: "Debian HelpDesk LIVE"
+    },
+    {
+      Key: "Name",
+      ResourceId: "i-446ef3ca",
+      ResourceType: "instance",
+      Value: "Debian Testing Server"
+    },
+    {
+      Key: "Name",
+      ResourceId: "i-91b54c5e",
+      ResourceType: "instance",
+      Value: "BigData main"
+    },
+    {
+      Key: "Name",
+      ResourceId: "i-93c3431d",
+      ResourceType: "instance",
+      Value: "SEO-pages-GoLang"
+    },
+    {
+      Key: "Name",
+      ResourceId: "i-97f76a19",
+      ResourceType: "instance",
+      Value: "Debian Staging Server"
+    },
+    {
+      Key: "Name",
+      ResourceId: "i-a6d07702",
+      ResourceType: "instance",
+      Value: "HelpDesk LIVE"
+    },
+    {
+      Key: "Name",
+      ResourceId: "i-b135f37e",
+      ResourceType: "instance",
+      Value: "BigData browser"
+    },
+    {
+      Key: "Name",
+      ResourceId: "i-bf9e7870",
+      ResourceType: "instance",
+      Value: "MarketPlace staging"
+    },
+    {
+      Key: "Name",
+      ResourceId: "i-c54b9b0a",
+      ResourceType: "instance",
+      Value: "MarketPlace testing"
+    },
+    {
+      Key: "Name",
+      ResourceId: "i-ebae6624",
+      ResourceType: "instance",
+      Value: "MarketPlace API"
+    },
+    {
+      Key: "Name",
+      ResourceId: "i-f5379b51",
+      ResourceType: "instance",
+      Value: "MarketPlace LIVE"
+    },
+    {
+      Key: "Name",
+      ResourceId: "snap-782b8e4c",
+      ResourceType: "snapshot",
+      Value: "debian helpdesk working EBS volume"
+    }
+  ]
+}
+*************************************************************************************
+ap-northeast-1
+*************************************************************************************
+{
+
+}
+*************************************************************************************
+ap-southeast-2
+*************************************************************************************
+{
+  Tags: [{
+      Key: "Name",
+      ResourceId: "i-5aae1e85",
+      ResourceType: "instance",
+      Value: "BigData Crawler 8"
+    },{
+      Key: "Name",
+      ResourceId: "i-b6922269",
+      ResourceType: "instance",
+      Value: "BigData Crawler 9"
+    }]
+}
+*************************************************************************************
+sa-east-1
+*************************************************************************************
+{
+
+}

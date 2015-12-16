@@ -1,0 +1,391 @@
+*************************************************************************************
+us-east-1
+*************************************************************************************
+{
+  AccountAttributes: [
+    {
+      AttributeName: "supported-platforms",
+      AttributeValues: [{
+          AttributeValue: "EC2"
+        },{
+          AttributeValue: "VPC"
+        }]
+    },
+    {
+      AttributeName: "vpc-max-security-groups-per-interface",
+      AttributeValues: [{
+          AttributeValue: "5"
+        }]
+    },
+    {
+      AttributeName: "max-elastic-ips",
+      AttributeValues: [{
+          AttributeValue: "5"
+        }]
+    },
+    {
+      AttributeName: "max-instances",
+      AttributeValues: [{
+          AttributeValue: "20"
+        }]
+    },
+    {
+      AttributeName: "vpc-max-elastic-ips",
+      AttributeValues: [{
+          AttributeValue: "5"
+        }]
+    },
+    {
+      AttributeName: "default-vpc",
+      AttributeValues: [{
+          AttributeValue: "none"
+        }]
+    }
+  ]
+}
+*************************************************************************************
+us-west-2
+*************************************************************************************
+{
+  AccountAttributes: [
+    {
+      AttributeName: "supported-platforms",
+      AttributeValues: [{
+          AttributeValue: "VPC"
+        }]
+    },
+    {
+      AttributeName: "vpc-max-security-groups-per-interface",
+      AttributeValues: [{
+          AttributeValue: "5"
+        }]
+    },
+    {
+      AttributeName: "max-elastic-ips",
+      AttributeValues: [{
+          AttributeValue: "5"
+        }]
+    },
+    {
+      AttributeName: "max-instances",
+      AttributeValues: [{
+          AttributeValue: "20"
+        }]
+    },
+    {
+      AttributeName: "vpc-max-elastic-ips",
+      AttributeValues: [{
+          AttributeValue: "5"
+        }]
+    },
+    {
+      AttributeName: "default-vpc",
+      AttributeValues: [{
+          AttributeValue: "vpc-381b5a50"
+        }]
+    }
+  ]
+}
+*************************************************************************************
+us-west-1
+*************************************************************************************
+{
+  AccountAttributes: [
+    {
+      AttributeName: "supported-platforms",
+      AttributeValues: [{
+          AttributeValue: "VPC"
+        }]
+    },
+    {
+      AttributeName: "vpc-max-security-groups-per-interface",
+      AttributeValues: [{
+          AttributeValue: "5"
+        }]
+    },
+    {
+      AttributeName: "max-elastic-ips",
+      AttributeValues: [{
+          AttributeValue: "5"
+        }]
+    },
+    {
+      AttributeName: "max-instances",
+      AttributeValues: [{
+          AttributeValue: "20"
+        }]
+    },
+    {
+      AttributeName: "vpc-max-elastic-ips",
+      AttributeValues: [{
+          AttributeValue: "5"
+        }]
+    },
+    {
+      AttributeName: "default-vpc",
+      AttributeValues: [{
+          AttributeValue: "vpc-a5a614cd"
+        }]
+    }
+  ]
+}
+*************************************************************************************
+eu-west-1
+*************************************************************************************
+{
+  AccountAttributes: [
+    {
+      AttributeName: "supported-platforms",
+      AttributeValues: [{
+          AttributeValue: "VPC"
+        }]
+    },
+    {
+      AttributeName: "vpc-max-security-groups-per-interface",
+      AttributeValues: [{
+          AttributeValue: "5"
+        }]
+    },
+    {
+      AttributeName: "max-elastic-ips",
+      AttributeValues: [{
+          AttributeValue: "5"
+        }]
+    },
+    {
+      AttributeName: "max-instances",
+      AttributeValues: [{
+          AttributeValue: "20"
+        }]
+    },
+    {
+      AttributeName: "vpc-max-elastic-ips",
+      AttributeValues: [{
+          AttributeValue: "5"
+        }]
+    },
+    {
+      AttributeName: "default-vpc",
+      AttributeValues: [{
+          AttributeValue: "vpc-538d5f38"
+        }]
+    }
+  ]
+}
+*************************************************************************************
+eu-central-1
+*************************************************************************************
+{
+  AccountAttributes: [
+    {
+      AttributeName: "supported-platforms",
+      AttributeValues: [{
+          AttributeValue: "VPC"
+        }]
+    },
+    {
+      AttributeName: "vpc-max-security-groups-per-interface",
+      AttributeValues: [{
+          AttributeValue: "5"
+        }]
+    },
+    {
+      AttributeName: "max-elastic-ips",
+      AttributeValues: [{
+          AttributeValue: "5"
+        }]
+    },
+    {
+      AttributeName: "max-instances",
+      AttributeValues: [{
+          AttributeValue: "20"
+        }]
+    },
+    {
+      AttributeName: "vpc-max-elastic-ips",
+      AttributeValues: [{
+          AttributeValue: "5"
+        }]
+    },
+    {
+      AttributeName: "default-vpc",
+      AttributeValues: [{
+          AttributeValue: "vpc-b76385de"
+        }]
+    }
+  ]
+}
+*************************************************************************************
+ap-southeast-1
+*************************************************************************************
+{
+  AccountAttributes: [
+    {
+      AttributeName: "supported-platforms",
+      AttributeValues: [{
+          AttributeValue: "EC2"
+        },{
+          AttributeValue: "VPC"
+        }]
+    },
+    {
+      AttributeName: "vpc-max-security-groups-per-interface",
+      AttributeValues: [{
+          AttributeValue: "5"
+        }]
+    },
+    {
+      AttributeName: "max-elastic-ips",
+      AttributeValues: [{
+          AttributeValue: "5"
+        }]
+    },
+    {
+      AttributeName: "max-instances",
+      AttributeValues: [{
+          AttributeValue: "20"
+        }]
+    },
+    {
+      AttributeName: "vpc-max-elastic-ips",
+      AttributeValues: [{
+          AttributeValue: "5"
+        }]
+    },
+    {
+      AttributeName: "default-vpc",
+      AttributeValues: [{
+          AttributeValue: "none"
+        }]
+    }
+  ]
+}
+*************************************************************************************
+ap-northeast-1
+*************************************************************************************
+{
+  AccountAttributes: [
+    {
+      AttributeName: "supported-platforms",
+      AttributeValues: [{
+          AttributeValue: "VPC"
+        }]
+    },
+    {
+      AttributeName: "vpc-max-security-groups-per-interface",
+      AttributeValues: [{
+          AttributeValue: "5"
+        }]
+    },
+    {
+      AttributeName: "max-elastic-ips",
+      AttributeValues: [{
+          AttributeValue: "5"
+        }]
+    },
+    {
+      AttributeName: "max-instances",
+      AttributeValues: [{
+          AttributeValue: "20"
+        }]
+    },
+    {
+      AttributeName: "vpc-max-elastic-ips",
+      AttributeValues: [{
+          AttributeValue: "5"
+        }]
+    },
+    {
+      AttributeName: "default-vpc",
+      AttributeValues: [{
+          AttributeValue: "none"
+        }]
+    }
+  ]
+}
+*************************************************************************************
+ap-southeast-2
+*************************************************************************************
+{
+  AccountAttributes: [
+    {
+      AttributeName: "supported-platforms",
+      AttributeValues: [{
+          AttributeValue: "VPC"
+        }]
+    },
+    {
+      AttributeName: "vpc-max-security-groups-per-interface",
+      AttributeValues: [{
+          AttributeValue: "5"
+        }]
+    },
+    {
+      AttributeName: "max-elastic-ips",
+      AttributeValues: [{
+          AttributeValue: "5"
+        }]
+    },
+    {
+      AttributeName: "max-instances",
+      AttributeValues: [{
+          AttributeValue: "20"
+        }]
+    },
+    {
+      AttributeName: "vpc-max-elastic-ips",
+      AttributeValues: [{
+          AttributeValue: "5"
+        }]
+    },
+    {
+      AttributeName: "default-vpc",
+      AttributeValues: [{
+          AttributeValue: "vpc-42f0a52b"
+        }]
+    }
+  ]
+}
+*************************************************************************************
+sa-east-1
+*************************************************************************************
+{
+  AccountAttributes: [
+    {
+      AttributeName: "supported-platforms",
+      AttributeValues: [{
+          AttributeValue: "VPC"
+        }]
+    },
+    {
+      AttributeName: "vpc-max-security-groups-per-interface",
+      AttributeValues: [{
+          AttributeValue: "5"
+        }]
+    },
+    {
+      AttributeName: "max-elastic-ips",
+      AttributeValues: [{
+          AttributeValue: "5"
+        }]
+    },
+    {
+      AttributeName: "max-instances",
+      AttributeValues: [{
+          AttributeValue: "20"
+        }]
+    },
+    {
+      AttributeName: "vpc-max-elastic-ips",
+      AttributeValues: [{
+          AttributeValue: "5"
+        }]
+    },
+    {
+      AttributeName: "default-vpc",
+      AttributeValues: [{
+          AttributeValue: "vpc-44c2ce2d"
+        }]
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+*************************************************************************************
+us-east-1
+*************************************************************************************
+{
+
+}
+*************************************************************************************
+us-west-2
+*************************************************************************************
+{
+
+}
+*************************************************************************************
+us-west-1
+*************************************************************************************
+{
+
+}
+*************************************************************************************
+eu-west-1
+*************************************************************************************
+{
+
+}
+*************************************************************************************
+eu-central-1
+*************************************************************************************
+{
+
+}
+*************************************************************************************
+ap-southeast-1
+*************************************************************************************
+{
+
+}
+*************************************************************************************
+ap-northeast-1
+*************************************************************************************
+{
+
+}
+*************************************************************************************
+ap-southeast-2
+*************************************************************************************
+{
+  NetworkInterfaces: [{
+      Association: {
+        IpOwnerId: "amazon",
+        PublicDnsName: "ec2-52-64-141-158.ap-southeast-2.compute.amazonaws.com",
+        PublicIp: "52.64.141.158"
+      },
+      Attachment: {
+        AttachTime: 2015-10-14 06:35:40 +0000 UTC,
+        AttachmentId: "eni-attach-02fc9b3c",
+        DeleteOnTermination: true,
+        DeviceIndex: 0,
+        InstanceId: "i-b6922269",
+        InstanceOwnerId: "585407464355",
+        Status: "attached"
+      },
+      AvailabilityZone: "ap-southeast-2a",
+      Description: "",
+      Groups: [{
+          GroupId: "sg-7c663319",
+          GroupName: "BigData Crawler"
+        }],
+      MacAddress: "02:68:35:09:1b:cb",
+      NetworkInterfaceId: "eni-bfc824d8",
+      OwnerId: "585407464355",
+      PrivateDnsName: "ip-172-31-9-19.ap-southeast-2.compute.internal",
+      PrivateIpAddress: "172.31.9.19",
+      PrivateIpAddresses: [{
+          Association: {
+            IpOwnerId: "amazon",
+            PublicDnsName: "ec2-52-64-141-158.ap-southeast-2.compute.amazonaws.com",
+            PublicIp: "52.64.141.158"
+          },
+          Primary: true,
+          PrivateDnsName: "ip-172-31-9-19.ap-southeast-2.compute.internal",
+          PrivateIpAddress: "172.31.9.19"
+        }],
+      RequesterManaged: false,
+      SourceDestCheck: true,
+      Status: "in-use",
+      SubnetId: "subnet-45f0a52c",
+      VpcId: "vpc-42f0a52b"
+    },{
+      Association: {
+        IpOwnerId: "amazon",
+        PublicDnsName: "ec2-52-64-189-9.ap-southeast-2.compute.amazonaws.com",
+        PublicIp: "52.64.189.9"
+      },
+      Attachment: {
+        AttachTime: 2015-10-14 06:27:23 +0000 UTC,
+        AttachmentId: "eni-attach-c0fe99fe",
+        DeleteOnTermination: true,
+        DeviceIndex: 0,
+        InstanceId: "i-5aae1e85",
+        InstanceOwnerId: "585407464355",
+        Status: "attached"
+      },
+      AvailabilityZone: "ap-southeast-2a",
+      Description: "",
+      Groups: [{
+          GroupId: "sg-7c663319",
+          GroupName: "BigData Crawler"
+        }],
+      MacAddress: "02:f6:ec:a1:27:bd",
+      NetworkInterfaceId: "eni-36ce2251",
+      OwnerId: "585407464355",
+      PrivateDnsName: "ip-172-31-3-184.ap-southeast-2.compute.internal",
+      PrivateIpAddress: "172.31.3.184",
+      PrivateIpAddresses: [{
+          Association: {
+            IpOwnerId: "amazon",
+            PublicDnsName: "ec2-52-64-189-9.ap-southeast-2.compute.amazonaws.com",
+            PublicIp: "52.64.189.9"
+          },
+          Primary: true,
+          PrivateDnsName: "ip-172-31-3-184.ap-southeast-2.compute.internal",
+          PrivateIpAddress: "172.31.3.184"
+        }],
+      RequesterManaged: false,
+      SourceDestCheck: true,
+      Status: "in-use",
+      SubnetId: "subnet-45f0a52c",
+      VpcId: "vpc-42f0a52b"
+    }]
+}
+*************************************************************************************
+sa-east-1
+*************************************************************************************
+{
+
+}

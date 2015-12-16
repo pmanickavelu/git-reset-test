@@ -1,0 +1,54 @@
+*************************************************************************************
+us-east-1
+*************************************************************************************
+InvalidParameter: 2 validation errors:
+- missing required parameter: SpotFleetRequestId
+- missing required parameter: StartTime
+*************************************************************************************
+us-west-2
+*************************************************************************************
+InvalidParameter: 2 validation errors:
+- missing required parameter: SpotFleetRequestId
+- missing required parameter: StartTime
+*************************************************************************************
+us-west-1
+*************************************************************************************
+InvalidParameter: 2 validation errors:
+- missing required parameter: SpotFleetRequestId
+- missing required parameter: StartTime
+*************************************************************************************
+eu-west-1
+*************************************************************************************
+InvalidParameter: 2 validation errors:
+- missing required parameter: SpotFleetRequestId
+- missing required parameter: StartTime
+*************************************************************************************
+eu-central-1
+*************************************************************************************
+InvalidParameter: 2 validation errors:
+- missing required parameter: SpotFleetRequestId
+- missing required parameter: StartTime
+*************************************************************************************
+ap-southeast-1
+*************************************************************************************
+InvalidParameter: 2 validation errors:
+- missing required parameter: SpotFleetRequestId
+- missing required parameter: StartTime
+*************************************************************************************
+ap-northeast-1
+*************************************************************************************
+InvalidParameter: 2 validation errors:
+- missing required parameter: SpotFleetRequestId
+- missing required parameter: StartTime
+*************************************************************************************
+ap-southeast-2
+*************************************************************************************
+InvalidParameter: 2 validation errors:
+- missing required parameter: SpotFleetRequestId
+- missing required parameter: StartTime
+*************************************************************************************
+sa-east-1
+*************************************************************************************
+InvalidParameter: 2 validation errors:
+- missing required parameter: SpotFleetRequestId
+- missing required parameter: StartTime

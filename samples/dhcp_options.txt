@@ -1,0 +1,171 @@
+*************************************************************************************
+us-east-1
+*************************************************************************************
+{
+  DhcpOptions: [{
+      DhcpConfigurations: [{
+          Key: "domain-name",
+          Values: [{
+              Value: "ec2.internal"
+            }]
+        },{
+          Key: "domain-name-servers",
+          Values: [{
+              Value: "AmazonProvidedDNS"
+            }]
+        }],
+      DhcpOptionsId: "dopt-aa2dd4cf"
+    }]
+}
+*************************************************************************************
+us-west-2
+*************************************************************************************
+{
+  DhcpOptions: [{
+      DhcpConfigurations: [{
+          Key: "domain-name",
+          Values: [{
+              Value: "us-west-2.compute.internal"
+            }]
+        },{
+          Key: "domain-name-servers",
+          Values: [{
+              Value: "AmazonProvidedDNS"
+            }]
+        }],
+      DhcpOptionsId: "dopt-331b5a5b"
+    }]
+}
+*************************************************************************************
+us-west-1
+*************************************************************************************
+{
+  DhcpOptions: [{
+      DhcpConfigurations: [{
+          Key: "domain-name",
+          Values: [{
+              Value: "us-west-1.compute.internal"
+            }]
+        },{
+          Key: "domain-name-servers",
+          Values: [{
+              Value: "AmazonProvidedDNS"
+            }]
+        }],
+      DhcpOptionsId: "dopt-bea614d6"
+    }]
+}
+*************************************************************************************
+eu-west-1
+*************************************************************************************
+{
+  DhcpOptions: [{
+      DhcpConfigurations: [{
+          Key: "domain-name",
+          Values: [{
+              Value: "eu-west-1.compute.internal"
+            }]
+        },{
+          Key: "domain-name-servers",
+          Values: [{
+              Value: "AmazonProvidedDNS"
+            }]
+        }],
+      DhcpOptionsId: "dopt-288d5f43"
+    }]
+}
+*************************************************************************************
+eu-central-1
+*************************************************************************************
+{
+  DhcpOptions: [{
+      DhcpConfigurations: [{
+          Key: "domain-name",
+          Values: [{
+              Value: "eu-central-1.compute.internal"
+            }]
+        },{
+          Key: "domain-name-servers",
+          Values: [{
+              Value: "AmazonProvidedDNS"
+            }]
+        }],
+      DhcpOptionsId: "dopt-e2ab4c8b"
+    }]
+}
+*************************************************************************************
+ap-southeast-1
+*************************************************************************************
+{
+  DhcpOptions: [{
+      DhcpConfigurations: [{
+          Key: "domain-name",
+          Values: [{
+              Value: "ap-southeast-1.compute.internal"
+            }]
+        },{
+          Key: "domain-name-servers",
+          Values: [{
+              Value: "AmazonProvidedDNS"
+            }]
+        }],
+      DhcpOptionsId: "dopt-2fb0414a"
+    }]
+}
+*************************************************************************************
+ap-northeast-1
+*************************************************************************************
+{
+  DhcpOptions: [{
+      DhcpConfigurations: [{
+          Key: "domain-name",
+          Values: [{
+              Value: "ap-northeast-1.compute.internal"
+            }]
+        },{
+          Key: "domain-name-servers",
+          Values: [{
+              Value: "AmazonProvidedDNS"
+            }]
+        }],
+      DhcpOptionsId: "dopt-1728e67f"
+    }]
+}
+*************************************************************************************
+ap-southeast-2
+*************************************************************************************
+{
+  DhcpOptions: [{
+      DhcpConfigurations: [{
+          Key: "domain-name",
+          Values: [{
+              Value: "ap-southeast-2.compute.internal"
+            }]
+        },{
+          Key: "domain-name-servers",
+          Values: [{
+              Value: "AmazonProvidedDNS"
+            }]
+        }],
+      DhcpOptionsId: "dopt-5df0a534"
+    }]
+}
+*************************************************************************************
+sa-east-1
+*************************************************************************************
+{
+  DhcpOptions: [{
+      DhcpConfigurations: [{
+          Key: "domain-name",
+          Values: [{
+              Value: "sa-east-1.compute.internal"
+            }]
+        },{
+          Key: "domain-name-servers",
+          Values: [{
+              Value: "AmazonProvidedDNS"
+            }]
+        }],
+      DhcpOptionsId: "dopt-5fc2ce36"
+    }]
+}

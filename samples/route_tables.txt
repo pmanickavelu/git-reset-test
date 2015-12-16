@@ -1,0 +1,187 @@
+*************************************************************************************
+us-east-1
+*************************************************************************************
+{
+  RouteTables: [{
+      Associations: [{
+          Main: true,
+          RouteTableAssociationId: "rtbassoc-12430476",
+          RouteTableId: "rtb-65863501"
+        }],
+      RouteTableId: "rtb-65863501",
+      Routes: [{
+          DestinationCidrBlock: "172.30.0.0/16",
+          GatewayId: "local",
+          Origin: "CreateRouteTable",
+          State: "active"
+        },{
+          DestinationCidrBlock: "0.0.0.0/0",
+          GatewayId: "igw-41467124",
+          Origin: "CreateRoute",
+          State: "active"
+        }],
+      VpcId: "vpc-81f13ce5"
+    }]
+}
+*************************************************************************************
+us-west-2
+*************************************************************************************
+{
+  RouteTables: [{
+      Associations: [{
+          Main: true,
+          RouteTableAssociationId: "rtbassoc-321b5a5a",
+          RouteTableId: "rtb-311b5a59"
+        }],
+      RouteTableId: "rtb-311b5a59",
+      Routes: [{
+          DestinationCidrBlock: "172.31.0.0/16",
+          GatewayId: "local",
+          Origin: "CreateRouteTable",
+          State: "active"
+        },{
+          DestinationCidrBlock: "0.0.0.0/0",
+          GatewayId: "igw-3c1b5a54",
+          Origin: "CreateRoute",
+          State: "active"
+        }],
+      VpcId: "vpc-381b5a50"
+    }]
+}
+*************************************************************************************
+us-west-1
+*************************************************************************************
+{
+  RouteTables: [{
+      Associations: [{
+          Main: true,
+          RouteTableAssociationId: "rtbassoc-bda614d5",
+          RouteTableId: "rtb-bca614d4"
+        }],
+      RouteTableId: "rtb-bca614d4",
+      Routes: [{
+          DestinationCidrBlock: "172.31.0.0/16",
+          GatewayId: "local",
+          Origin: "CreateRouteTable",
+          State: "active"
+        },{
+          DestinationCidrBlock: "0.0.0.0/0",
+          GatewayId: "igw-b8a614d0",
+          Origin: "CreateRoute",
+          State: "active"
+        }],
+      VpcId: "vpc-a5a614cd"
+    }]
+}
+*************************************************************************************
+eu-west-1
+*************************************************************************************
+{
+  RouteTables: [{
+      Associations: [{
+          Main: true,
+          RouteTableAssociationId: "rtbassoc-298d5f42",
+          RouteTableId: "rtb-2a8d5f41"
+        }],
+      RouteTableId: "rtb-2a8d5f41",
+      Routes: [{
+          DestinationCidrBlock: "172.31.0.0/16",
+          GatewayId: "local",
+          Origin: "CreateRouteTable",
+          State: "active"
+        },{
+          DestinationCidrBlock: "0.0.0.0/0",
+          GatewayId: "igw-578d5f3c",
+          Origin: "CreateRoute",
+          State: "active"
+        }],
+      VpcId: "vpc-538d5f38"
+    }]
+}
+*************************************************************************************
+eu-central-1
+*************************************************************************************
+{
+  RouteTables: [{
+      Associations: [{
+          Main: true,
+          RouteTableAssociationId: "rtbassoc-8b56b0e2",
+          RouteTableId: "rtb-c90beda0"
+        }],
+      RouteTableId: "rtb-c90beda0",
+      Routes: [{
+          DestinationCidrBlock: "172.31.0.0/16",
+          GatewayId: "local",
+          Origin: "CreateRouteTable",
+          State: "active"
+        },{
+          DestinationCidrBlock: "0.0.0.0/0",
+          GatewayId: "igw-36fc1a5f",
+          Origin: "CreateRoute",
+          State: "active"
+        }],
+      VpcId: "vpc-b76385de"
+    }]
+}
+*************************************************************************************
+ap-southeast-1
+*************************************************************************************
+{
+
+}
+*************************************************************************************
+ap-northeast-1
+*************************************************************************************
+{
+
+}
+*************************************************************************************
+ap-southeast-2
+*************************************************************************************
+{
+  RouteTables: [{
+      Associations: [{
+          Main: true,
+          RouteTableAssociationId: "rtbassoc-5af0a533",
+          RouteTableId: "rtb-5bf0a532"
+        }],
+      RouteTableId: "rtb-5bf0a532",
+      Routes: [{
+          DestinationCidrBlock: "172.31.0.0/16",
+          GatewayId: "local",
+          Origin: "CreateRouteTable",
+          State: "active"
+        },{
+          DestinationCidrBlock: "0.0.0.0/0",
+          GatewayId: "igw-47f0a52e",
+          Origin: "CreateRoute",
+          State: "active"
+        }],
+      VpcId: "vpc-42f0a52b"
+    }]
+}
+*************************************************************************************
+sa-east-1
+*************************************************************************************
+{
+  RouteTables: [{
+      Associations: [{
+          Main: true,
+          RouteTableAssociationId: "rtbassoc-5cc2ce35",
+          RouteTableId: "rtb-5dc2ce34"
+        }],
+      RouteTableId: "rtb-5dc2ce34",
+      Routes: [{
+          DestinationCidrBlock: "172.31.0.0/16",
+          GatewayId: "local",
+          Origin: "CreateRouteTable",
+          State: "active"
+        },{
+          DestinationCidrBlock: "0.0.0.0/0",
+          GatewayId: "igw-59c2ce30",
+          Origin: "CreateRoute",
+          State: "active"
+        }],
+      VpcId: "vpc-44c2ce2d"
+    }]
+}

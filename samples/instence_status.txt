@@ -1,0 +1,402 @@
+*************************************************************************************
+us-east-1
+*************************************************************************************
+{
+  InstanceStatuses: [{
+      AvailabilityZone: "us-east-1b",
+      InstanceId: "i-4f3eaaf0",
+      InstanceState: {
+        Code: 16,
+        Name: "running"
+      },
+      InstanceStatus: {
+        Details: [{
+            Name: "reachability",
+            Status: "passed"
+          }],
+        Status: "ok"
+      },
+      SystemStatus: {
+        Details: [{
+            Name: "reachability",
+            Status: "passed"
+          }],
+        Status: "ok"
+      }
+    },{
+      AvailabilityZone: "us-east-1b",
+      InstanceId: "i-df206260",
+      InstanceState: {
+        Code: 16,
+        Name: "running"
+      },
+      InstanceStatus: {
+        Details: [{
+            Name: "reachability",
+            Status: "passed"
+          }],
+        Status: "ok"
+      },
+      SystemStatus: {
+        Details: [{
+            Name: "reachability",
+            Status: "passed"
+          }],
+        Status: "ok"
+      }
+    },{
+      AvailabilityZone: "us-east-1b",
+      InstanceId: "i-54284dea",
+      InstanceState: {
+        Code: 16,
+        Name: "running"
+      },
+      InstanceStatus: {
+        Details: [{
+            Name: "reachability",
+            Status: "passed"
+          }],
+        Status: "ok"
+      },
+      SystemStatus: {
+        Details: [{
+            Name: "reachability",
+            Status: "passed"
+          }],
+        Status: "ok"
+      }
+    }]
+}
+*************************************************************************************
+us-west-2
+*************************************************************************************
+{
+
+}
+*************************************************************************************
+us-west-1
+*************************************************************************************
+{
+
+}
+*************************************************************************************
+eu-west-1
+*************************************************************************************
+{
+
+}
+*************************************************************************************
+eu-central-1
+*************************************************************************************
+{
+
+}
+*************************************************************************************
+ap-southeast-1
+*************************************************************************************
+{
+  InstanceStatuses: [
+    {
+      AvailabilityZone: "ap-southeast-1b",
+      InstanceId: "i-bf9e7870",
+      InstanceState: {
+        Code: 16,
+        Name: "running"
+      },
+      InstanceStatus: {
+        Details: [{
+            Name: "reachability",
+            Status: "passed"
+          }],
+        Status: "ok"
+      },
+      SystemStatus: {
+        Details: [{
+            Name: "reachability",
+            Status: "passed"
+          }],
+        Status: "ok"
+      }
+    },
+    {
+      AvailabilityZone: "ap-southeast-1b",
+      InstanceId: "i-91b54c5e",
+      InstanceState: {
+        Code: 16,
+        Name: "running"
+      },
+      InstanceStatus: {
+        Details: [{
+            Name: "reachability",
+            Status: "passed"
+          }],
+        Status: "ok"
+      },
+      SystemStatus: {
+        Details: [{
+            Name: "reachability",
+            Status: "passed"
+          }],
+        Status: "ok"
+      }
+    },
+    {
+      AvailabilityZone: "ap-southeast-1b",
+      InstanceId: "i-b135f37e",
+      InstanceState: {
+        Code: 16,
+        Name: "running"
+      },
+      InstanceStatus: {
+        Details: [{
+            Name: "reachability",
+            Status: "passed"
+          }],
+        Status: "ok"
+      },
+      SystemStatus: {
+        Details: [{
+            Name: "reachability",
+            Status: "passed"
+          }],
+        Status: "ok"
+      }
+    },
+    {
+      AvailabilityZone: "ap-southeast-1b",
+      InstanceId: "i-ebae6624",
+      InstanceState: {
+        Code: 16,
+        Name: "running"
+      },
+      InstanceStatus: {
+        Details: [{
+            Name: "reachability",
+            Status: "passed"
+          }],
+        Status: "ok"
+      },
+      SystemStatus: {
+        Details: [{
+            Name: "reachability",
+            Status: "passed"
+          }],
+        Status: "ok"
+      }
+    },
+    {
+      AvailabilityZone: "ap-southeast-1b",
+      InstanceId: "i-c54b9b0a",
+      InstanceState: {
+        Code: 16,
+        Name: "running"
+      },
+      InstanceStatus: {
+        Details: [{
+            Name: "reachability",
+            Status: "passed"
+          }],
+        Status: "ok"
+      },
+      SystemStatus: {
+        Details: [{
+            Name: "reachability",
+            Status: "passed"
+          }],
+        Status: "ok"
+      }
+    },
+    {
+      AvailabilityZone: "ap-southeast-1b",
+      InstanceId: "i-07e539c8",
+      InstanceState: {
+        Code: 16,
+        Name: "running"
+      },
+      InstanceStatus: {
+        Details: [{
+            Name: "reachability",
+            Status: "passed"
+          }],
+        Status: "ok"
+      },
+      SystemStatus: {
+        Details: [{
+            Name: "reachability",
+            Status: "passed"
+          }],
+        Status: "ok"
+      }
+    },
+    {
+      AvailabilityZone: "ap-southeast-1a",
+      InstanceId: "i-f5379b51",
+      InstanceState: {
+        Code: 16,
+        Name: "running"
+      },
+      InstanceStatus: {
+        Details: [{
+            Name: "reachability",
+            Status: "passed"
+          }],
+        Status: "ok"
+      },
+      SystemStatus: {
+        Details: [{
+            Name: "reachability",
+            Status: "passed"
+          }],
+        Status: "ok"
+      }
+    },
+    {
+      AvailabilityZone: "ap-southeast-1b",
+      InstanceId: "i-93c3431d",
+      InstanceState: {
+        Code: 16,
+        Name: "running"
+      },
+      InstanceStatus: {
+        Details: [{
+            Name: "reachability",
+            Status: "passed"
+          }],
+        Status: "ok"
+      },
+      SystemStatus: {
+        Details: [{
+            Name: "reachability",
+            Status: "passed"
+          }],
+        Status: "ok"
+      }
+    },
+    {
+      AvailabilityZone: "ap-southeast-1b",
+      InstanceId: "i-366de7b8",
+      InstanceState: {
+        Code: 16,
+        Name: "running"
+      },
+      InstanceStatus: {
+        Details: [{
+            Name: "reachability",
+            Status: "passed"
+          }],
+        Status: "ok"
+      },
+      SystemStatus: {
+        Details: [{
+            Name: "reachability",
+            Status: "passed"
+          }],
+        Status: "ok"
+      }
+    },
+    {
+      AvailabilityZone: "ap-southeast-1b",
+      InstanceId: "i-97f76a19",
+      InstanceState: {
+        Code: 16,
+        Name: "running"
+      },
+      InstanceStatus: {
+        Details: [{
+            Name: "reachability",
+            Status: "passed"
+          }],
+        Status: "ok"
+      },
+      SystemStatus: {
+        Details: [{
+            Name: "reachability",
+            Status: "passed"
+          }],
+        Status: "ok"
+      }
+    },
+    {
+      AvailabilityZone: "ap-southeast-1b",
+      InstanceId: "i-446ef3ca",
+      InstanceState: {
+        Code: 16,
+        Name: "running"
+      },
+      InstanceStatus: {
+        Details: [{
+            Name: "reachability",
+            Status: "passed"
+          }],
+        Status: "ok"
+      },
+      SystemStatus: {
+        Details: [{
+            Name: "reachability",
+            Status: "passed"
+          }],
+        Status: "ok"
+      }
+    }
+  ]
+}
+*************************************************************************************
+ap-northeast-1
+*************************************************************************************
+{
+
+}
+*************************************************************************************
+ap-southeast-2
+*************************************************************************************
+{
+  InstanceStatuses: [{
+      AvailabilityZone: "ap-southeast-2a",
+      InstanceId: "i-5aae1e85",
+      InstanceState: {
+        Code: 16,
+        Name: "running"
+      },
+      InstanceStatus: {
+        Details: [{
+            Name: "reachability",
+            Status: "passed"
+          }],
+        Status: "ok"
+      },
+      SystemStatus: {
+        Details: [{
+            Name: "reachability",
+            Status: "passed"
+          }],
+        Status: "ok"
+      }
+    },{
+      AvailabilityZone: "ap-southeast-2a",
+      InstanceId: "i-b6922269",
+      InstanceState: {
+        Code: 16,
+        Name: "running"
+      },
+      InstanceStatus: {
+        Details: [{
+            Name: "reachability",
+            Status: "passed"
+          }],
+        Status: "ok"
+      },
+      SystemStatus: {
+        Details: [{
+            Name: "reachability",
+            Status: "passed"
+          }],
+        Status: "ok"
+      }
+    }]
+}
+*************************************************************************************
+sa-east-1
+*************************************************************************************
+{
+
+}

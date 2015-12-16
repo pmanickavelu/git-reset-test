@@ -1,0 +1,160 @@
+*************************************************************************************
+us-east-1
+*************************************************************************************
+{
+  AvailabilityZones: [
+    {
+      RegionName: "us-east-1",
+      State: "available",
+      ZoneName: "us-east-1a"
+    },
+    {
+      RegionName: "us-east-1",
+      State: "available",
+      ZoneName: "us-east-1b"
+    },
+    {
+      RegionName: "us-east-1",
+      State: "available",
+      ZoneName: "us-east-1c"
+    },
+    {
+      RegionName: "us-east-1",
+      State: "available",
+      ZoneName: "us-east-1d"
+    },
+    {
+      RegionName: "us-east-1",
+      State: "available",
+      ZoneName: "us-east-1e"
+    }
+  ]
+}
+*************************************************************************************
+us-west-2
+*************************************************************************************
+{
+  AvailabilityZones: [{
+      RegionName: "us-west-2",
+      State: "available",
+      ZoneName: "us-west-2a"
+    },{
+      RegionName: "us-west-2",
+      State: "available",
+      ZoneName: "us-west-2b"
+    },{
+      RegionName: "us-west-2",
+      State: "available",
+      ZoneName: "us-west-2c"
+    }]
+}
+*************************************************************************************
+us-west-1
+*************************************************************************************
+{
+  AvailabilityZones: [{
+      RegionName: "us-west-1",
+      State: "available",
+      ZoneName: "us-west-1a"
+    },{
+      RegionName: "us-west-1",
+      State: "available",
+      ZoneName: "us-west-1b"
+    }]
+}
+*************************************************************************************
+eu-west-1
+*************************************************************************************
+{
+  AvailabilityZones: [{
+      RegionName: "eu-west-1",
+      State: "available",
+      ZoneName: "eu-west-1a"
+    },{
+      RegionName: "eu-west-1",
+      State: "available",
+      ZoneName: "eu-west-1b"
+    },{
+      RegionName: "eu-west-1",
+      State: "available",
+      ZoneName: "eu-west-1c"
+    }]
+}
+*************************************************************************************
+eu-central-1
+*************************************************************************************
+{
+  AvailabilityZones: [{
+      RegionName: "eu-central-1",
+      State: "available",
+      ZoneName: "eu-central-1a"
+    },{
+      RegionName: "eu-central-1",
+      State: "available",
+      ZoneName: "eu-central-1b"
+    }]
+}
+*************************************************************************************
+ap-southeast-1
+*************************************************************************************
+{
+  AvailabilityZones: [{
+      RegionName: "ap-southeast-1",
+      State: "available",
+      ZoneName: "ap-southeast-1a"
+    },{
+      RegionName: "ap-southeast-1",
+      State: "available",
+      ZoneName: "ap-southeast-1b"
+    }]
+}
+*************************************************************************************
+ap-northeast-1
+*************************************************************************************
+{
+  AvailabilityZones: [{
+      RegionName: "ap-northeast-1",
+      State: "available",
+      ZoneName: "ap-northeast-1a"
+    },{
+      RegionName: "ap-northeast-1",
+      State: "available",
+      ZoneName: "ap-northeast-1b"
+    },{
+      RegionName: "ap-northeast-1",
+      State: "available",
+      ZoneName: "ap-northeast-1c"
+    }]
+}
+*************************************************************************************
+ap-southeast-2
+*************************************************************************************
+{
+  AvailabilityZones: [{
+      RegionName: "ap-southeast-2",
+      State: "available",
+      ZoneName: "ap-southeast-2a"
+    },{
+      RegionName: "ap-southeast-2",
+      State: "available",
+      ZoneName: "ap-southeast-2b"
+    }]
+}
+*************************************************************************************
+sa-east-1
+*************************************************************************************
+{
+  AvailabilityZones: [{
+      RegionName: "sa-east-1",
+      State: "available",
+      ZoneName: "sa-east-1a"
+    },{
+      RegionName: "sa-east-1",
+      State: "available",
+      ZoneName: "sa-east-1b"
+    },{
+      RegionName: "sa-east-1",
+      State: "available",
+      ZoneName: "sa-east-1c"
+    }]
+}

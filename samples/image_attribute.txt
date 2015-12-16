@@ -1,0 +1,54 @@
+*************************************************************************************
+us-east-1
+*************************************************************************************
+InvalidParameter: 2 validation errors:
+- missing required parameter: Attribute
+- missing required parameter: ImageId
+*************************************************************************************
+us-west-2
+*************************************************************************************
+InvalidParameter: 2 validation errors:
+- missing required parameter: Attribute
+- missing required parameter: ImageId
+*************************************************************************************
+us-west-1
+*************************************************************************************
+InvalidParameter: 2 validation errors:
+- missing required parameter: Attribute
+- missing required parameter: ImageId
+*************************************************************************************
+eu-west-1
+*************************************************************************************
+InvalidParameter: 2 validation errors:
+- missing required parameter: Attribute
+- missing required parameter: ImageId
+*************************************************************************************
+eu-central-1
+*************************************************************************************
+InvalidParameter: 2 validation errors:
+- missing required parameter: Attribute
+- missing required parameter: ImageId
+*************************************************************************************
+ap-southeast-1
+*************************************************************************************
+InvalidParameter: 2 validation errors:
+- missing required parameter: Attribute
+- missing required parameter: ImageId
+*************************************************************************************
+ap-northeast-1
+*************************************************************************************
+InvalidParameter: 2 validation errors:
+- missing required parameter: Attribute
+- missing required parameter: ImageId
+*************************************************************************************
+ap-southeast-2
+*************************************************************************************
+InvalidParameter: 2 validation errors:
+- missing required parameter: Attribute
+- missing required parameter: ImageId
+*************************************************************************************
+sa-east-1
+*************************************************************************************
+InvalidParameter: 2 validation errors:
+- missing required parameter: Attribute
+- missing required parameter: ImageId

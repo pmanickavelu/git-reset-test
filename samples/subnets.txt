@@ -1,0 +1,230 @@
+*************************************************************************************
+us-east-1
+*************************************************************************************
+{
+  Subnets: [
+    {
+      AvailabilityZone: "us-east-1c",
+      AvailableIpAddressCount: 251,
+      CidrBlock: "172.30.2.0/24",
+      DefaultForAz: false,
+      MapPublicIpOnLaunch: true,
+      State: "available",
+      SubnetId: "subnet-21f0fb56",
+      VpcId: "vpc-81f13ce5"
+    },
+    {
+      AvailabilityZone: "us-east-1d",
+      AvailableIpAddressCount: 251,
+      CidrBlock: "172.30.3.0/24",
+      DefaultForAz: false,
+      MapPublicIpOnLaunch: true,
+      State: "available",
+      SubnetId: "subnet-c3e3ce9a",
+      VpcId: "vpc-81f13ce5"
+    },
+    {
+      AvailabilityZone: "us-east-1e",
+      AvailableIpAddressCount: 251,
+      CidrBlock: "172.30.4.0/24",
+      DefaultForAz: false,
+      MapPublicIpOnLaunch: true,
+      State: "available",
+      SubnetId: "subnet-a7ff3b9a",
+      VpcId: "vpc-81f13ce5"
+    },
+    {
+      AvailabilityZone: "us-east-1b",
+      AvailableIpAddressCount: 251,
+      CidrBlock: "172.30.1.0/24",
+      DefaultForAz: false,
+      MapPublicIpOnLaunch: true,
+      State: "available",
+      SubnetId: "subnet-017f2c2a",
+      VpcId: "vpc-81f13ce5"
+    }
+  ]
+}
+*************************************************************************************
+us-west-2
+*************************************************************************************
+{
+  Subnets: [{
+      AvailabilityZone: "us-west-2c",
+      AvailableIpAddressCount: 4091,
+      CidrBlock: "172.31.0.0/20",
+      DefaultForAz: true,
+      MapPublicIpOnLaunch: true,
+      State: "available",
+      SubnetId: "subnet-391b5a51",
+      VpcId: "vpc-381b5a50"
+    },{
+      AvailabilityZone: "us-west-2a",
+      AvailableIpAddressCount: 4091,
+      CidrBlock: "172.31.32.0/20",
+      DefaultForAz: true,
+      MapPublicIpOnLaunch: true,
+      State: "available",
+      SubnetId: "subnet-3a1b5a52",
+      VpcId: "vpc-381b5a50"
+    },{
+      AvailabilityZone: "us-west-2b",
+      AvailableIpAddressCount: 4091,
+      CidrBlock: "172.31.16.0/20",
+      DefaultForAz: true,
+      MapPublicIpOnLaunch: true,
+      State: "available",
+      SubnetId: "subnet-3b1b5a53",
+      VpcId: "vpc-381b5a50"
+    }]
+}
+*************************************************************************************
+us-west-1
+*************************************************************************************
+{
+  Subnets: [{
+      AvailabilityZone: "us-west-1b",
+      AvailableIpAddressCount: 4091,
+      CidrBlock: "172.31.16.0/20",
+      DefaultForAz: true,
+      MapPublicIpOnLaunch: true,
+      State: "available",
+      SubnetId: "subnet-a7a614cf",
+      VpcId: "vpc-a5a614cd"
+    },{
+      AvailabilityZone: "us-west-1a",
+      AvailableIpAddressCount: 4091,
+      CidrBlock: "172.31.0.0/20",
+      DefaultForAz: true,
+      MapPublicIpOnLaunch: true,
+      State: "available",
+      SubnetId: "subnet-a6a614ce",
+      VpcId: "vpc-a5a614cd"
+    }]
+}
+*************************************************************************************
+eu-west-1
+*************************************************************************************
+{
+  Subnets: [{
+      AvailabilityZone: "eu-west-1b",
+      AvailableIpAddressCount: 4091,
+      CidrBlock: "172.31.0.0/20",
+      DefaultForAz: true,
+      MapPublicIpOnLaunch: true,
+      State: "available",
+      SubnetId: "subnet-528d5f39",
+      VpcId: "vpc-538d5f38"
+    },{
+      AvailabilityZone: "eu-west-1a",
+      AvailableIpAddressCount: 4091,
+      CidrBlock: "172.31.32.0/20",
+      DefaultForAz: true,
+      MapPublicIpOnLaunch: true,
+      State: "available",
+      SubnetId: "subnet-518d5f3a",
+      VpcId: "vpc-538d5f38"
+    },{
+      AvailabilityZone: "eu-west-1c",
+      AvailableIpAddressCount: 4091,
+      CidrBlock: "172.31.16.0/20",
+      DefaultForAz: true,
+      MapPublicIpOnLaunch: true,
+      State: "available",
+      SubnetId: "subnet-508d5f3b",
+      VpcId: "vpc-538d5f38"
+    }]
+}
+*************************************************************************************
+eu-central-1
+*************************************************************************************
+{
+  Subnets: [{
+      AvailabilityZone: "eu-central-1a",
+      AvailableIpAddressCount: 4091,
+      CidrBlock: "172.31.16.0/20",
+      DefaultForAz: true,
+      MapPublicIpOnLaunch: true,
+      State: "available",
+      SubnetId: "subnet-9140a1f8",
+      VpcId: "vpc-b76385de"
+    },{
+      AvailabilityZone: "eu-central-1b",
+      AvailableIpAddressCount: 4091,
+      CidrBlock: "172.31.0.0/20",
+      DefaultForAz: true,
+      MapPublicIpOnLaunch: true,
+      State: "available",
+      SubnetId: "subnet-b3dbdbcb",
+      VpcId: "vpc-b76385de"
+    }]
+}
+*************************************************************************************
+ap-southeast-1
+*************************************************************************************
+{
+
+}
+*************************************************************************************
+ap-northeast-1
+*************************************************************************************
+{
+
+}
+*************************************************************************************
+ap-southeast-2
+*************************************************************************************
+{
+  Subnets: [{
+      AvailabilityZone: "ap-southeast-2b",
+      AvailableIpAddressCount: 4091,
+      CidrBlock: "172.31.16.0/20",
+      DefaultForAz: true,
+      MapPublicIpOnLaunch: true,
+      State: "available",
+      SubnetId: "subnet-44f0a52d",
+      VpcId: "vpc-42f0a52b"
+    },{
+      AvailabilityZone: "ap-southeast-2a",
+      AvailableIpAddressCount: 4089,
+      CidrBlock: "172.31.0.0/20",
+      DefaultForAz: true,
+      MapPublicIpOnLaunch: true,
+      State: "available",
+      SubnetId: "subnet-45f0a52c",
+      VpcId: "vpc-42f0a52b"
+    }]
+}
+*************************************************************************************
+sa-east-1
+*************************************************************************************
+{
+  Subnets: [{
+      AvailabilityZone: "sa-east-1b",
+      AvailableIpAddressCount: 4091,
+      CidrBlock: "172.31.16.0/20",
+      DefaultForAz: true,
+      MapPublicIpOnLaunch: true,
+      State: "available",
+      SubnetId: "subnet-47c2ce2e",
+      VpcId: "vpc-44c2ce2d"
+    },{
+      AvailabilityZone: "sa-east-1a",
+      AvailableIpAddressCount: 4091,
+      CidrBlock: "172.31.0.0/20",
+      DefaultForAz: true,
+      MapPublicIpOnLaunch: true,
+      State: "available",
+      SubnetId: "subnet-46c2ce2f",
+      VpcId: "vpc-44c2ce2d"
+    },{
+      AvailabilityZone: "sa-east-1c",
+      AvailableIpAddressCount: 4091,
+      CidrBlock: "172.31.32.0/20",
+      DefaultForAz: true,
+      MapPublicIpOnLaunch: true,
+      State: "available",
+      SubnetId: "subnet-7f683f39",
+      VpcId: "vpc-44c2ce2d"
+    }]
+}

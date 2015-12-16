@@ -1,0 +1,380 @@
+*************************************************************************************
+us-east-1
+*************************************************************************************
+{
+  NetworkAcls: [{
+      Associations: [
+        {
+          NetworkAclAssociationId: "aclassoc-275ec741",
+          NetworkAclId: "acl-91854ff5",
+          SubnetId: "subnet-21f0fb56"
+        },
+        {
+          NetworkAclAssociationId: "aclassoc-245ec742",
+          NetworkAclId: "acl-91854ff5",
+          SubnetId: "subnet-c3e3ce9a"
+        },
+        {
+          NetworkAclAssociationId: "aclassoc-255ec743",
+          NetworkAclId: "acl-91854ff5",
+          SubnetId: "subnet-017f2c2a"
+        },
+        {
+          NetworkAclAssociationId: "aclassoc-265ec740",
+          NetworkAclId: "acl-91854ff5",
+          SubnetId: "subnet-a7ff3b9a"
+        }
+      ],
+      Entries: [
+        {
+          CidrBlock: "0.0.0.0/0",
+          Egress: true,
+          Protocol: "-1",
+          RuleAction: "allow",
+          RuleNumber: 100
+        },
+        {
+          CidrBlock: "0.0.0.0/0",
+          Egress: true,
+          Protocol: "-1",
+          RuleAction: "deny",
+          RuleNumber: 32767
+        },
+        {
+          CidrBlock: "0.0.0.0/0",
+          Egress: false,
+          Protocol: "-1",
+          RuleAction: "allow",
+          RuleNumber: 100
+        },
+        {
+          CidrBlock: "0.0.0.0/0",
+          Egress: false,
+          Protocol: "-1",
+          RuleAction: "deny",
+          RuleNumber: 32767
+        }
+      ],
+      IsDefault: true,
+      NetworkAclId: "acl-91854ff5",
+      VpcId: "vpc-81f13ce5"
+    }]
+}
+*************************************************************************************
+us-west-2
+*************************************************************************************
+{
+  NetworkAcls: [{
+      Associations: [{
+          NetworkAclAssociationId: "aclassoc-341b5a5c",
+          NetworkAclId: "acl-301b5a58",
+          SubnetId: "subnet-391b5a51"
+        },{
+          NetworkAclAssociationId: "aclassoc-351b5a5d",
+          NetworkAclId: "acl-301b5a58",
+          SubnetId: "subnet-3b1b5a53"
+        },{
+          NetworkAclAssociationId: "aclassoc-361b5a5e",
+          NetworkAclId: "acl-301b5a58",
+          SubnetId: "subnet-3a1b5a52"
+        }],
+      Entries: [
+        {
+          CidrBlock: "0.0.0.0/0",
+          Egress: true,
+          Protocol: "-1",
+          RuleAction: "allow",
+          RuleNumber: 100
+        },
+        {
+          CidrBlock: "0.0.0.0/0",
+          Egress: true,
+          Protocol: "-1",
+          RuleAction: "deny",
+          RuleNumber: 32767
+        },
+        {
+          CidrBlock: "0.0.0.0/0",
+          Egress: false,
+          Protocol: "-1",
+          RuleAction: "allow",
+          RuleNumber: 100
+        },
+        {
+          CidrBlock: "0.0.0.0/0",
+          Egress: false,
+          Protocol: "-1",
+          RuleAction: "deny",
+          RuleNumber: 32767
+        }
+      ],
+      IsDefault: true,
+      NetworkAclId: "acl-301b5a58",
+      VpcId: "vpc-381b5a50"
+    }]
+}
+*************************************************************************************
+us-west-1
+*************************************************************************************
+{
+  NetworkAcls: [{
+      Associations: [{
+          NetworkAclAssociationId: "aclassoc-bfa614d7",
+          NetworkAclId: "acl-bba614d3",
+          SubnetId: "subnet-a6a614ce"
+        },{
+          NetworkAclAssociationId: "aclassoc-b0a614d8",
+          NetworkAclId: "acl-bba614d3",
+          SubnetId: "subnet-a7a614cf"
+        }],
+      Entries: [
+        {
+          CidrBlock: "0.0.0.0/0",
+          Egress: true,
+          Protocol: "-1",
+          RuleAction: "allow",
+          RuleNumber: 100
+        },
+        {
+          CidrBlock: "0.0.0.0/0",
+          Egress: true,
+          Protocol: "-1",
+          RuleAction: "deny",
+          RuleNumber: 32767
+        },
+        {
+          CidrBlock: "0.0.0.0/0",
+          Egress: false,
+          Protocol: "-1",
+          RuleAction: "allow",
+          RuleNumber: 100
+        },
+        {
+          CidrBlock: "0.0.0.0/0",
+          Egress: false,
+          Protocol: "-1",
+          RuleAction: "deny",
+          RuleNumber: 32767
+        }
+      ],
+      IsDefault: true,
+      NetworkAclId: "acl-bba614d3",
+      VpcId: "vpc-a5a614cd"
+    }]
+}
+*************************************************************************************
+eu-west-1
+*************************************************************************************
+{
+  NetworkAcls: [{
+      Associations: [{
+          NetworkAclAssociationId: "aclassoc-2f8d5f44",
+          NetworkAclId: "acl-2b8d5f40",
+          SubnetId: "subnet-528d5f39"
+        },{
+          NetworkAclAssociationId: "aclassoc-2d8d5f46",
+          NetworkAclId: "acl-2b8d5f40",
+          SubnetId: "subnet-518d5f3a"
+        },{
+          NetworkAclAssociationId: "aclassoc-2e8d5f45",
+          NetworkAclId: "acl-2b8d5f40",
+          SubnetId: "subnet-508d5f3b"
+        }],
+      Entries: [
+        {
+          CidrBlock: "0.0.0.0/0",
+          Egress: true,
+          Protocol: "-1",
+          RuleAction: "allow",
+          RuleNumber: 100
+        },
+        {
+          CidrBlock: "0.0.0.0/0",
+          Egress: true,
+          Protocol: "-1",
+          RuleAction: "deny",
+          RuleNumber: 32767
+        },
+        {
+          CidrBlock: "0.0.0.0/0",
+          Egress: false,
+          Protocol: "-1",
+          RuleAction: "allow",
+          RuleNumber: 100
+        },
+        {
+          CidrBlock: "0.0.0.0/0",
+          Egress: false,
+          Protocol: "-1",
+          RuleAction: "deny",
+          RuleNumber: 32767
+        }
+      ],
+      IsDefault: true,
+      NetworkAclId: "acl-2b8d5f40",
+      VpcId: "vpc-538d5f38"
+    }]
+}
+*************************************************************************************
+eu-central-1
+*************************************************************************************
+{
+  NetworkAcls: [{
+      Associations: [{
+          NetworkAclAssociationId: "aclassoc-102dce79",
+          NetworkAclId: "acl-f20aec9b",
+          SubnetId: "subnet-b3dbdbcb"
+        },{
+          NetworkAclAssociationId: "aclassoc-132dce7a",
+          NetworkAclId: "acl-f20aec9b",
+          SubnetId: "subnet-9140a1f8"
+        }],
+      Entries: [
+        {
+          CidrBlock: "0.0.0.0/0",
+          Egress: true,
+          Protocol: "-1",
+          RuleAction: "allow",
+          RuleNumber: 100
+        },
+        {
+          CidrBlock: "0.0.0.0/0",
+          Egress: true,
+          Protocol: "-1",
+          RuleAction: "deny",
+          RuleNumber: 32767
+        },
+        {
+          CidrBlock: "0.0.0.0/0",
+          Egress: false,
+          Protocol: "-1",
+          RuleAction: "allow",
+          RuleNumber: 100
+        },
+        {
+          CidrBlock: "0.0.0.0/0",
+          Egress: false,
+          Protocol: "-1",
+          RuleAction: "deny",
+          RuleNumber: 32767
+        }
+      ],
+      IsDefault: true,
+      NetworkAclId: "acl-f20aec9b",
+      VpcId: "vpc-b76385de"
+    }]
+}
+*************************************************************************************
+ap-southeast-1
+*************************************************************************************
+{
+
+}
+*************************************************************************************
+ap-northeast-1
+*************************************************************************************
+{
+
+}
+*************************************************************************************
+ap-southeast-2
+*************************************************************************************
+{
+  NetworkAcls: [{
+      Associations: [{
+          NetworkAclAssociationId: "aclassoc-5cf0a535",
+          NetworkAclId: "acl-58f0a531",
+          SubnetId: "subnet-45f0a52c"
+        },{
+          NetworkAclAssociationId: "aclassoc-5ff0a536",
+          NetworkAclId: "acl-58f0a531",
+          SubnetId: "subnet-44f0a52d"
+        }],
+      Entries: [
+        {
+          CidrBlock: "0.0.0.0/0",
+          Egress: true,
+          Protocol: "-1",
+          RuleAction: "allow",
+          RuleNumber: 100
+        },
+        {
+          CidrBlock: "0.0.0.0/0",
+          Egress: true,
+          Protocol: "-1",
+          RuleAction: "deny",
+          RuleNumber: 32767
+        },
+        {
+          CidrBlock: "0.0.0.0/0",
+          Egress: false,
+          Protocol: "-1",
+          RuleAction: "allow",
+          RuleNumber: 100
+        },
+        {
+          CidrBlock: "0.0.0.0/0",
+          Egress: false,
+          Protocol: "-1",
+          RuleAction: "deny",
+          RuleNumber: 32767
+        }
+      ],
+      IsDefault: true,
+      NetworkAclId: "acl-58f0a531",
+      VpcId: "vpc-42f0a52b"
+    }]
+}
+*************************************************************************************
+sa-east-1
+*************************************************************************************
+{
+  NetworkAcls: [{
+      Associations: [{
+          NetworkAclAssociationId: "aclassoc-5ec2ce37",
+          NetworkAclId: "acl-5ac2ce33",
+          SubnetId: "subnet-46c2ce2f"
+        },{
+          NetworkAclAssociationId: "aclassoc-51c2ce38",
+          NetworkAclId: "acl-5ac2ce33",
+          SubnetId: "subnet-47c2ce2e"
+        },{
+          NetworkAclAssociationId: "aclassoc-a82a99cd",
+          NetworkAclId: "acl-5ac2ce33",
+          SubnetId: "subnet-7f683f39"
+        }],
+      Entries: [
+        {
+          CidrBlock: "0.0.0.0/0",
+          Egress: true,
+          Protocol: "-1",
+          RuleAction: "allow",
+          RuleNumber: 100
+        },
+        {
+          CidrBlock: "0.0.0.0/0",
+          Egress: true,
+          Protocol: "-1",
+          RuleAction: "deny",
+          RuleNumber: 32767
+        },
+        {
+          CidrBlock: "0.0.0.0/0",
+          Egress: false,
+          Protocol: "-1",
+          RuleAction: "allow",
+          RuleNumber: 100
+        },
+        {
+          CidrBlock: "0.0.0.0/0",
+          Egress: false,
+          Protocol: "-1",
+          RuleAction: "deny",
+          RuleNumber: 32767
+        }
+      ],
+      IsDefault: true,
+      NetworkAclId: "acl-5ac2ce33",
+      VpcId: "vpc-44c2ce2d"
+    }]
+}
